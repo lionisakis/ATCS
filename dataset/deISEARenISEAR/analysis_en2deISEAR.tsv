@@ -1,0 +1,386 @@
+Sentence_id	Prior_Emotion	Sentence	General Event	Future Event	Past Event	Prospective	Social	Self conseq.	Conseq. oth.	Situat. control	Responsible
+276	Sadness	I felt ... when I heard a sad song on the radio.	0	0	1	0	0	1	0	0	1
+932	Fear	I felt ... when it was unclear whether our company would continue or not.	0	0	1	0	0	1	1	0	0
+286	Disgust	I felt ... when I drank bad milk	0	0	1	0	0	1	0	0	1
+978	Joy	I felt ... when someone smiled at me.	0	0	1	0	1	1	0	0	0
+915	Sadness	I felt ... when I lost my dog.	0	0	1	0	1	1	0	0	1
+280	Guilt	I felt ... because I told my parents only part of the truth.	0	0	1	0	1	0	1	1	1
+201	Fear	I felt ... when a wooden truck with a trailer approached at a steep crossroads.	0	0	1	0	0	1	0	0	0
+372	Sadness	I felt ... when I heard that Britain was going to leave the euro. (very dear friends of ours live in London and they have already told us that this would be terrible)	0	0	1	0	1	0	1	0	1
+322	Shame	I felt ... when last time I did not properly separate my garbage.	0	0	1	0	0	0	0	1	1
+234	Anger	I feel ... when someone irritates and insults me, threatens me, or when someone touches my children.	1	0	0	0	1	1	0	0	0
+902	Joy	I felt ... because I got mail from a long-forgotten school friend.	0	0	1	0	1	1	0	0	0
+33	Joy	I felt ... when I heard that my company was organizing a Christmas party again for the first time in years.	0	0	1	0	1	0	1	0	1
+1008	Disgust	I felt ... because I should wipe away the vomit.	0	0	1	0	0	1	0	0	0
+658	Guilt	I felt ... when I let my friend help with women.	0	0	1	0	1	0	1	1	1
+366	Disgust	I felt ... because a lot of food was moldy in the fridge.	0	0	1	0	0	0	0	0	0
+182	Joy	I felt ... when I became a father again.	0	0	1	0	0	1	0	0	1
+525	Disgust	I felt ... when I accidentally fell into excrement with my hand.	0	0	1	0	0	1	0	0	1
+221	Shame	I felt ... when I peed on a wall and was seen.	0	0	1	0	0	1	0	1	1
+124	Disgust	I felt ... when I saw the kale dish, and especially smelled	0	0	1	0	0	0	0	0	1
+882	Joy	I felt ... every time I held one of my children in my arms for the first time after birth.	0	0	1	0	1	1	0	1	1
+922	Anger	I felt ... when I realized I had forgotten my purse at home and was about to buy concert tickets.	0	0	1	0	0	1	0	0	1
+94	Anger	I felt ... that our policy is not ready to hold the auto companies responsible in the wake of the diesel affair.	0	0	1	0	0	0	1	0	0
+886	Sadness	I felt ... when I heard that my neighbor had died.	0	0	1	0	1	0	1	0	1
+849	Joy	I felt ... because I got a nice present.	0	0	1	0	0	1	0	0	0
+44	Fear	I felt ... when my father fell seriously ill.	0	0	1	0	1	0	1	0	0
+255	Shame	I felt ... as I spotted the huge stain on my pants.	0	0	1	0	0	1	0	0	1
+1018	Sadness	I felt ... when I could not see my children for several days.	0	0	1	0	1	1	0	0	1
+526	Fear	I feel ... when I see a spider in the corner.	0	0	1	0	1	0	0	0	1
+318	Joy	I felt ... when my best friend got married.	0	0	1	0	1	0	1	0	0
+1013	Guilt	I felt ... when I stole as a child.	0	0	1	0	0	1	1	1	1
+226	Disgust	I felt ... when I saw mold on the bread.	0	0	1	0	0	0	0	0	1
+499	Joy	I felt ... when I got an invitation to a date.	0	0	1	0	0	1	0	0	0
+417	Anger	I felt ... when I had to watch helplessly without being able to do anything about it	0	0	1	0	0	0	0	0	1
+391	Anger	I feel ... when my supervisor unnecessarily stresses me at work. This has happened very often lately.	0	0	1	0	1	1	0	0	0
+404	Shame	I felt ... when my pants burst on the inside of my thighs at work. Unfortunately I had to stay at work for almost 9 more hours because I was the only technician on duty.	0	0	1	0	0	1	0	0	0
+82	Guilt	I felt ... when I did not want to help my girlfriend.	0	0	1	0	1	0	1	1	1
+929	Joy	I felt ... when my papaya application was approved.	0	0	1	0	0	1	0	0	1
+835	Fear	I felt ... when a heavy storm at night caused our windows to wobble.	0	0	1	0	0	1	0	0	0
+463	Shame	I felt ... when, as a pure pleasure, I promised a friend to do some complicated manual work and then used it for a very long time.	0	0	1	0	1	0	1	1	1
+333	Anger	I felt ... when our installation company pushed new demands	0	0	1	0	0	1	0	0	0
+905	Fear	I felt ... when my husband was mortally wounded because of the consequences of organ donation and it was not clear if he would survive.	0	0	1	0	1	0	1	0	0
+970	Sadness	I felt ... when my team lost.	0	0	1	0	1	1	1	0	0
+25	Shame	I felt ... because I forgot her birthday	0	0	1	0	1	0	0	0	1
+264	Guilt	I felt ... when I forgot to pour the flowers of a friend while she was on vacation.	0	0	1	0	1	0	1	0	1
+198	Fear	I felt ... when my nephews went sledding for the first time and I was unsure if they would arrive safely down below.	0	0	1	1	1	0	0	1	0
+148	Shame	I felt ... because my trouser stall was open	0	0	1	0	0	1	0	0	1
+239	Joy	I felt ... when I got my high school diploma in my hands.	0	0	1	0	0	1	0	0	0
+702	Sadness	I felt ... when I had to sell my dog.	0	0	1	0	0	1	1	0	0
+113	Sadness	I felt ... when my favorite mom died a few months ago	0	0	1	0	1	0	1	0	0
+552	Shame	I felt ... when I had to fumble in the elevator.	0	0	1	0	0	0	0	1	1
+633	Shame	I felt ... when I had to vomit after a lot of alcohol.	0	0	1	0	0	1	0	0	1
+896	Anger	I felt ... when my brother was beaten by other kids at school.	0	0	1	0	1	0	1	0	0
+122	Disgust	I felt ... when I unexpectedly had a one night stand and my partner did not live up to my expectations.	0	0	1	0	1	1	0	1	1
+328	Sadness	I felt ... after my mother told me that my father had died.	0	0	1	0	1	0	0	0	0
+313	Guilt	I felt ... when the users could not access the database server because it was full	0	0	1	0	1	0	1	0	1
+521	Sadness	I felt ... when my mother had to go to hospital again after only a few weeks.	0	0	1	0	1	0	1	0	0
+375	Sadness	I felt ... when my dog, who belonged to our family for more than twelve years, died.	0	0	1	0	1	0	1	0	0
+808	Sadness	I felt ... because my childhood memories seized me. I missed the place where I grew up and all the people I knew there when I was a kid.	0	0	1	0	1	0	0	0	0
+811	Guilt	I felt ... when I could not keep a secret for myself.	0	0	1	0	0	1	0	1	1
+975	Joy	I felt ... when I saved the money for my vacation together.	0	0	1	0	0	1	0	1	1
+700	Fear	I felt ... when suddenly the power suddenly went off at a concert.	0	0	1	0	0	0	0	0	0
+828	Shame	I felt ... when I locked myself out on my doorstep.	0	0	1	0	0	1	0	0	1
+934	Shame	I felt ... when I was caught writing as a student	0	0	1	0	0	1	0	1	1
+158	Joy	I felt ... when I won the game of chance.	0	0	1	0	0	1	0	0	1
+52	Fear	I felt ... when I slipped on an ice surface and hit very hard.	0	0	1	0	0	1	0	0	1
+782	Anger	I felt ... when I realized that a client whom I had been very much in favor of doing after telling me the story of his torment had lied to me.	0	0	1	0	1	1	0	0	1
+326	Anger	I felt ... that my colleague was promoted but not me	0	0	1	0	1	0	1	0	0
+621	Guilt	I felt ... when I did not call a relative Christmas and she died shortly after the holidays.	0	0	1	0	1	0	0	1	1
+706	Fear	I felt ... when my heart raced uncontrollably at night.	0	0	1	0	0	1	0	0	0
+460	Disgust	I felt ... when I had to clean the toilet.	0	0	1	0	0	1	0	0	0
+23	Fear	I felt ... when people saw how aggressive and drunk some people are in public transport.	0	0	1	0	1	1	1	0	0
+395	Joy	I feel ... when I'm playing with my little kids	0	0	1	0	1	1	1	1	1
+558	Disgust	I felt ... when I once discovered a long black hair in my mashed potatoes while eating in the canteen.	0	0	1	0	0	1	0	0	1
+777	Guilt	I felt ... when I cheated on my wife after a night of drinking.	0	0	1	0	1	0	1	1	1
+385	Shame	I felt ... when I first had to take off in front of a doctor for a doctor's visit.	0	0	1	0	1	1	0	0	0
+216	Shame	I felt ... when I started to stammer during a lecture.	0	0	1	0	0	1	0	0	1
+1003	Anger	I felt ... when there was almost an accident while driving.	0	0	1	0	0	1	1	0	0
+651	Guilt	I felt ... when I left my girlfriend alone when she was drunk.	0	0	1	0	1	0	1	1	1
+38	Fear	I felt ... when I wanted to take a shower, but there was a big black spider at the drain and there was no one to help.	0	0	1	0	0	1	0	0	1
+831	Shame	I felt ... when I went to the baker in the morning without a shower and then realized that I smell very violent.	0	0	1	0	1	1	1	0	1
+908	Shame	I felt ... when I was told that I had stepped into a dog pile.	0	0	1	0	0	1	0	0	0
+181	Disgust	I felt ... because a few days ago while working in the garden I stepped on a dead rat lying under withered leaves.	0	0	1	0	1	1	0	0	1
+450	Shame	I felt ... when I did not manage to go to the hairdresser and my hairstyle looked horrible	0	0	1	0	1	1	0	0	1
+907	Disgust	I felt ... when I had to vomit for the first time in full frenzy.	0	0	1	0	0	1	0	0	1
+150	Joy	I felt ... when my son was born.	0	0	1	0	1	0	1	0	1
+734	Sadness	I felt ... when an equity investment ended in total loss.	0	0	1	0	0	1	0	0	0
+568	Fear	I felt ... when my wife stuck a piece of meat in her throat while eating and threatened to suffocate her.	0	0	1	0	1	0	1	0	0
+573	Anger	I felt ... when I was robbed.	0	0	1	0	0	1	0	0	0
+360	Shame	I felt ... when I became unemployed.	0	0	1	0	0	1	0	0	1
+979	Disgust	I felt ... when in the summer a lot of fruit flies collected on the fruits in the kitchen and when I wanted to take something out of the shell, all of them flew up.	0	0	1	0	1	0	0	0	0
+467	Fear	I felt ... when my child was standing too close to the curb when the bus arrived.	0	0	1	0	1	0	1	0	0
+236	Disgust	I felt ... when I changed my son's diaper and he totally fucked up	0	0	1	0	1	1	0	0	1
+512	Disgust	I felt ... when the bio-waste bin started to live.	0	0	1	0	0	0	0	0	0
+609	Sadness	I felt ... when I realized that there were no new episodes of X-Factor - The Incomprehensible with Jonathan Frakes anymore.	0	0	1	0	1	1	0	0	1
+11	Shame	I felt ... because I'm too fat	0	0	1	0	0	1	0	1	1
+796	Sadness	I felt ... as I thought the years had passed since I was young.	0	0	1	0	0	1	0	0	1
+999	Joy	I felt ... when I was released from psychiatry.	0	0	1	0	0	1	0	0	0
+282	Guilt	I felt ... when I broke my wife's car	0	0	1	0	1	0	1	0	1
+430	Sadness	I felt ... when my favorite club lost the top game	0	0	1	0	1	0	1	0	1
+453	Disgust	I felt ... as I drove past a field where manure was sprayed.	0	0	1	0	0	1	0	0	1
+839	Anger	I felt ... because I was helpless in bed after a lumbago.	0	0	1	0	0	1	0	0	0
+455	Guilt	I felt ... when I was flashed at too fast a ride.	0	0	1	0	0	1	0	1	1
+474	Sadness	I felt ... when I celebrated New Year alone.	0	0	1	0	0	1	0	1	1
+104	Disgust	I felt ... when I had to watch the work in a slaughterhouse.	0	0	1	0	0	1	0	1	0
+314	Joy	I felt ... when I got my salary last month.	0	0	1	0	0	1	0	0	0
+136	Anger	I felt ... when the telephone terror did not stop again	0	0	1	0	0	1	0	0	0
+13	Joy	I felt ... when my daughter told me that I'm the best dad in the world	0	0	1	0	1	1	0	0	0
+373	Anger	I feel ... when I was taken as a cyclist at a crossroads from a delivery van the right of way.	0	0	1	0	0	1	0	0	0
+225	Shame	I felt ... when I forgot my purse while shopping.	0	0	1	0	0	1	0	0	1
+936	Shame	I felt ... when a friend called me, whom I forgot to congratulate on my birthday.	0	0	1	0	1	1	0	0	0
+772	Sadness	I felt ... when I stopped getting tickets for my favorite band.	0	0	1	0	0	0	0	0	1
+637	Shame	I felt ... because I could not answer a sentence to a friend in English although I had already studied in Canada for half a year.	0	0	1	0	1	0	0	0	1
+530	Disgust	I felt ... when I had to swim across the Elbe two years ago.	0	0	1	0	0	1	0	0	0
+754	Sadness	I felt ... when I read a sad book.	1	0	0	0	0	1	0	1	1
+142	Sadness	I felt ... when I heard that my wife had gone astray.	0	0	1	0	1	0	1	0	1
+29	Joy	I felt ... when I got a significant salary increase.	0	0	1	0	0	1	0	0	0
+951	Anger	I felt ... when another car in the fast lane hit me too close and stuck to the bumper for a while.	0	0	1	0	0	1	0	0	0
+212	Guilt	I felt ... when I had lost the weekend again	0	0	1	0	0	1	0	0	1
+199	Joy	I felt ... when I had my birthday.	0	0	1	0	0	1	0	0	0
+723	Anger	I felt ... when, after completing my studies, I found only a bad job and the boss, a true professional choleric, was constantly chopping on me. That he did it to pretty much all his staff was no comfort.	0	0	1	0	1	1	0	0	1
+488	Joy	I felt ... when I saw friends after a long time.	0	0	1	0	1	1	0	0	1
+755	Sadness	I felt ... when I thought that my memories would be lost when I die.	0	0	1	1	0	0	0	0	1
+435	Shame	I felt ... when I changed in the swimming pool and a strange woman watched me doing it	0	0	1	0	0	0	0	1	0
+535	Shame	I felt ... when I had to ask the neighbor for help to turn on a glass because I was too weak.	0	0	1	0	1	0	1	1	0
+1032	Joy	I felt ... when my little niece was driving alone with the ski lift.	0	0	1	0	1	0	1	0	0
+843	Joy	I felt ... when I finally met my old classmates at the Christmas market.	0	0	1	0	1	1	0	0	1
+166	Anger	I felt ... when I realized that in the supermarket a box of coke was overcharged	0	0	1	0	0	1	0	0	1
+812	Guilt	I felt ... when I drove into my father's car a bump.	0	0	1	0	0	1	1	0	1
+59	Joy	I felt ... when my football club won last.	0	0	1	0	1	0	1	0	0
+1000	Anger	I felt ... because cheating on a good friend.	0	0	1	0	1	0	1	1	1
+974	Shame	I felt ... when I noticed that it was stinking in the corridor of my parents-in-law, after I was there on Toillette.	0	0	1	0	1	1	1	0	1
+590	Joy	I felt ... when I could win my match.	0	0	1	0	0	1	0	0	1
+466	Disgust	I felt ... when our cat vomited on the carpet.	0	0	1	0	1	1	0	0	0
+739	Disgust	I felt ... when I had to change a diaper.	0	0	1	0	0	1	0	0	0
+413	Guilt	I felt ... when I learned that because of my failure, we all had a day off at work.	0	0	1	0	1	1	1	0	1
+420	Anger	I felt ... when my ex-boyfriend cheated on me.	0	0	1	0	1	1	0	0	0
+941	Disgust	I felt ... when a spider fell in my face as I slept at night.	0	0	1	0	1	1	0	0	0
+394	Sadness	I feel ... because so many kids around the world are hungry.	0	0	1	0	1	0	1	0	0
+1027	Guilt	I felt ... when I noticed. that one of my plants was received which I really wanted to take care of.	0	0	1	0	0	1	0	0	1
+147	Sadness	I felt ... when my son brought home a bad grade	0	0	1	0	1	0	1	0	0
+838	Sadness	I felt ... when my parents' dog died.	0	0	1	0	1	0	1	0	0
+623	Sadness	I felt ... when a friend of mine had to fly back to the US after Christmas.	0	0	1	0	1	0	1	0	0
+479	Anger	I felt ... as I read the primitive reactions of a soccer player of the FCB to the tweet to his gilded steak.	0	0	1	0	1	0	1	0	1
+513	Fear	I felt ... when my son made a long drive in bad weather and I could not reach him and he did not answer.	0	0	1	0	1	0	1	0	0
+277	Sadness	I felt ... because my favorite series was canceled	0	0	1	0	0	0	0	0	0
+984	Shame	I felt ... when I recently had a sick day.	0	0	1	0	0	1	0	1	1
+358	Joy	I felt ... when I heard that my trip to Norway could take place, because this was a long time on the edge.	0	0	1	0	0	1	0	0	1
+667	Shame	I felt ... when I did something wrong	0	0	1	0	0	1	0	1	1
+444	Anger	I felt ... when I saw someone in the parking lot had hit my car and disappeared.	0	0	1	0	1	1	0	0	1
+270	Disgust	I felt ... when I saw a birth on TV.	0	0	1	0	0	0	1	0	1
+115	Anger	I felt ... when my teacher gave me an unjust note.	0	0	1	0	1	1	0	0	0
+883	Guilt	I felt ... when I had to cancel a long-planned appointment.	0	0	1	0	0	1	1	0	0
+575	Joy	I felt ... when I was able to successfully complete an exhausting work.	0	0	1	0	0	1	0	1	1
+614	Disgust	I felt ... when I saw a casual acquaintance in town looking for cigarettes in trashcans.	0	0	1	0	1	0	1	0	1
+30	Joy	I felt ... when I got a good grade.	0	0	1	0	0	1	0	1	1
+584	Guilt	I felt ... when I built an accident in my wife's car.	0	0	1	0	0	1	1	0	1
+853	Shame	I felt ... when I ran away from home as a small child to fetch a cat from the farmer. I just went, took her and ran away. Later I had to thank you again and me.	0	0	1	0	1	0	1	1	1
+670	Joy	I felt ... when my daughter began studying social pedagogy despite three learned professions. Because studying improves your situation even more.	0	0	1	1	1	0	1	0	0
+79	Joy	I felt ... when I found out that my dad is feeling better	0	0	1	0	1	0	1	0	0
+205	Shame	I felt ... when I saw our heroes in the closing stages yesterday	0	0	1	0	1	0	0	0	1
+345	Sadness	I felt ... when I heard about the death of Stan Lee.	0	0	1	0	1	0	1	0	1
+106	Shame	I felt ... when I realized that I had been so wrong in his character	0	0	1	0	1	0	1	0	1
+471	Guilt	I felt ... when I saw that my colleague got in trouble with me.	0	0	1	0	1	0	1	0	1
+410	Anger	I felt ... when a colleague sold a project idea as his, even though it was mine.	0	0	1	0	1	1	1	0	0
+218	Disgust	I felt ... when I saw a report about spiders on TV	0	0	1	0	1	0	0	0	1
+45	Sadness	I felt ... when my club got the compensation late yesterday	0	0	1	0	1	0	1	0	0
+15	Joy	I felt ... when I could go to the weekend	0	0	1	0	0	1	0	0	1
+41	Fear	I felt ... when a bad accident happened on the highway right in front of me.	0	0	1	0	0	0	1	0	0
+437	Anger	I felt ... when a stupid man purposely ran over a cat.	0	0	1	0	1	0	1	0	0
+99	Disgust	I felt ... when suddenly a nasty, relatively flat green beetle fell out of my jacket.	0	0	1	0	1	0	0	0	0
+359	Joy	I felt ... because my friend visited me surprisingly.	0	0	1	0	1	1	0	0	0
+296	Guilt	I felt ... when I forgot an invoice years ago to pay.	0	0	1	0	0	1	0	0	1
+267	Guilt	I felt ... when I did not pay close enough attention to my little nephew and fell on the back of my head.	0	0	1	0	1	0	1	0	1
+144	Disgust	I felt ... when I last had to vomit a few years ago.	0	0	1	0	0	1	0	0	1
+415	Disgust	I felt ... when I opened the cream cheese with a friend and it was already completely moldy.	0	0	1	0	1	0	0	0	1
+120	Fear	I felt ... when turbulence was flying.	0	0	1	0	0	1	1	0	0
+405	Anger	I felt ... when I was unjustly criticized for work.	0	0	1	0	0	1	0	0	0
+451	Fear	I felt ... when an oncoming car pulled over to my side of the street and approached me head-on.	0	0	1	0	0	1	0	0	0
+726	Fear	I felt ... when the hospital contacted me because my dad had to be operated on.	0	0	1	0	1	0	1	0	0
+68	Sadness	I felt ... when I heard how much Bitcoin had fallen off.	0	0	1	0	0	1	1	0	1
+357	Guilt	I felt ... when 10 DM were missing in our club cash!	0	0	1	0	0	1	0	1	1
+414	Shame	I felt ... when an expensive glass fell off the table.	0	0	1	0	0	0	0	0	1
+230	Guilt	I felt ... when I could not keep my promise	0	0	1	0	0	0	0	0	1
+674	Fear	I felt ... when I had to walk in the middle of the night on a non-illuminated dirt road.	0	0	1	0	0	1	0	0	0
+227	Disgust	I felt ... when I unpacked the meal packet from my son because it was totally moldy.	0	0	1	0	1	0	0	0	1
+528	Guilt	I felt ... because I drove too fast.	0	0	1	0	0	1	0	1	1
+972	Disgust	I felt ... because of a big spider on the floor.	0	0	1	0	1	0	0	0	0
+65	Anger	I felt ... when there was a big disturbance of the night in front of my house.	0	0	1	0	0	1	0	0	0
+679	Disgust	I felt ... when I stepped into dog shit.	0	0	1	0	0	1	0	0	1
+429	Disgust	I felt ... because in the tram a passenger smelled very disgusting.	0	0	1	0	1	1	0	0	0
+531	Anger	I felt ... when my ex-wife insulted me.	0	0	1	0	1	1	0	0	0
+398	Anger	I felt ... because I had forgotten the weekly parking ban and got a nod.	0	0	1	0	0	1	0	0	1
+441	Disgust	I felt ... when I was in the restaurant with friends and all ate bloody steaks.	0	0	1	0	1	0	1	0	0
+917	Anger	I felt ... when dead children were shown as war victims on TV.	0	0	1	0	1	0	1	0	0
+496	Shame	I felt ... when my mother had to accompany me to school when I had skipped school	0	0	1	0	1	0	1	0	0
+1035	Disgust	I felt ... when I drank wine for the first time as a kid.	0	0	1	0	0	1	0	1	1
+54	Shame	I felt ... when the team failed at the World Cup	0	0	1	0	1	0	1	0	0
+825	Disgust	I feel ... of an unappetizing food.	1	0	0	0	0	0	0	0	0
+143	Anger	I felt ... when I heard how many animal and plant species are disappearing forever from this planet.	0	0	1	0	1	0	1	0	1
+598	Shame	I felt ... when I smeared chocolate while working.	0	0	1	0	0	1	0	0	1
+780	Sadness	I felt ... when my favorite grandma died.	0	0	1	0	1	0	1	0	0
+630	Fear	I felt ... the first time I had to go to hospital for an operation.	0	0	1	0	0	1	0	0	0
+971	Fear	I felt ... when I was surprised by a storm when I was cycling.	0	0	1	0	0	1	0	0	0
+801	Anger	I felt ... when I lost my purse in the bus, because there were also cash in addition to my documents.	0	0	1	0	0	1	0	0	1
+858	Anger	I felt ... that my father-in-law kept cuddling my son, even though he did not want to.	0	0	1	0	1	0	1	0	0
+677	Sadness	I felt ... when I heard that a good friend collapsed in a marathon and died.	0	0	1	0	1	0	1	0	1
+146	Joy	I felt ... when I found out that my favorite band was playing in my city	0	0	1	0	1	1	1	0	1
+47	Fear	I felt ... when I was alone at night as a small child.	0	0	1	0	0	1	0	0	0
+611	Joy	I felt ... when I got new perfume for Christmas.	0	0	1	0	0	1	0	0	0
+996	Anger	I felt ... when I was exposed by a friend.	0	0	1	0	1	1	0	0	0
+967	Guilt	I felt ... when I lit my grandfather's shed.	0	0	1	0	1	0	1	1	1
+141	Shame	I felt ... when I vomited after a lot of alcohol.	0	0	1	0	0	1	0	0	1
+332	Sadness	I feel ... when I can not see my children for a long time.	0	0	1	0	1	1	0	0	0
+439	Anger	I feel ... because my sister did not call once to ask about our sick father.	0	0	1	0	1	0	0	0	0
+977	Anger	I felt ... when I got scammed online.	0	0	1	0	0	1	0	0	1
+768	Sadness	I felt ... when my dad died.	0	0	1	0	1	0	1	0	0
+298	Shame	I felt ... when I broke the diet again	0	0	1	0	0	1	0	1	1
+1023	Anger	I felt ... when the German national team retired in the preliminary round of the World Cup.	0	0	1	0	1	0	1	0	0
+288	Guilt	I felt ... when I broke something and did not want to say it was me.	0	0	1	0	0	1	0	1	1
+655	Fear	I felt ... when I watched a horror movie alone.	0	0	1	0	0	1	0	1	1
+365	Joy	I felt ... because I got a raise	0	0	1	0	0	1	0	0	0
+400	Fear	I felt ... because my grandma was ill	0	0	1	0	1	0	1	0	0
+204	Guilt	I felt ... when I pushed my brother against the radiator and he injured his chin.	0	0	1	0	1	0	1	0	1
+733	Guilt	I felt ... when I had gnawed on my fingernails.	0	0	1	0	0	1	0	1	1
+773	Disgust	I felt ... when I saw the big dead rat lying in the snow.	0	0	1	0	1	0	1	0	1
+555	Shame	I felt ... when I was discovered at something forbidden.	0	0	1	0	0	1	0	0	1
+457	Disgust	I felt ... when I ate an apple that was eaten by a worm and you have not seen it from the outside at all.	0	0	1	0	1	1	0	0	1
+564	Anger	I felt ... when my mother-in-law misbehaved at Christmas.	0	0	1	0	1	0	1	0	0
+258	Shame	I felt ... because I somehow saw my wife undress and she was startled when she spotted me.	0	0	1	0	1	0	1	1	1
+431	Guilt	I felt ..., I cheated on my wife.	0	0	1	0	1	1	1	1	1
+916	Shame	I felt ... because I forgot something important in a lecture.	0	0	1	0	0	1	0	0	1
+914	Disgust	I felt ... when I saw a snail.	0	0	1	0	1	1	0	0	1
+810	Sadness	I felt ... when I had to say goodbye to my friend.	0	0	1	0	1	1	1	0	0
+770	Fear	I felt ... when my daughter was first born with the coccyx. Because she had the umbilical wound around her neck, I had very big ... around her.	0	0	1	0	1	0	1	0	0
+873	Anger	I felt ... that there are many idiots with us who tend to be right-wing.	0	0	1	0	1	1	0	0	0
+1029	Shame	I felt ... when I spotted a big spot on my blouse.	0	0	1	0	0	1	0	0	1
+774	Joy	I felt ... when I became a dad.	0	0	1	0	0	1	0	0	1
+836	Fear	I felt ... when I was beaten by 3 men at the same time.	0	0	1	0	1	1	0	0	0
+324	Guilt	I felt ... when the closet overturned	0	0	1	0	0	1	1	0	1
+986	Guilt	I felt ... when something in the work did not work right away and I did not test the part.	0	0	1	0	0	1	0	0	1
+616	Fear	I felt ... when a firework rocket was fired towards my children and my little one ran away crying.	0	0	1	0	1	0	1	0	0
+116	Fear	I felt ... when I was approached and persecuted by a stranger at night.	0	0	1	0	1	1	0	0	0
+329	Joy	I felt ... when I ate a piece of chocolate.	0	0	1	0	0	1	0	1	1
+546	Shame	I felt ... when I was the only one who did not have the homework.	0	0	1	0	0	1	0	1	1
+294	Disgust	I felt ... when I last saw a bigger spider.	0	0	1	0	1	1	0	0	1
+818	Guilt	I felt ... because I forgot the appointment.	0	0	1	0	0	1	1	0	1
+175	Guilt	I felt ... when I laid mouse traps last time.	0	0	1	0	0	0	1	1	1
+287	Sadness	I felt ... when I had to give up my cat because I'm traveling too much for work.	0	0	1	0	1	1	1	1	1
+926	Joy	I felt ... when I had my Master in my pocket.	0	0	1	0	0	1	0	1	1
+224	Fear	I felt ... when I almost made an accident	0	0	1	0	0	1	0	0	1
+944	Joy	I felt ... when a sports bet from me ran for over € 1000 in profit.	0	0	1	0	0	1	0	0	0
+153	Joy	I felt ... when I first became a dad.	0	0	1	0	0	1	0	0	1
+1026	Anger	I felt ... when my wife met another man and left me.	0	0	1	0	1	1	0	0	0
+340	Disgust	I felt ... when I saw a horror film in which the intestines hung a dead man from the abdominal cavity.	0	0	1	0	1	1	0	1	1
+214	Shame	I felt ... when I did not give money to a beggar.	0	0	1	0	1	0	1	1	1
+406	Guilt	I felt ... when the barbecue was burned while I was having a barbecue.	0	0	1	0	0	0	0	0	0
+569	Disgust	I felt ... when I opened a toilet door on a unclean highway rest stop.	0	0	1	0	0	1	0	1	1
+86	Disgust	I felt ... when I accidentally stepped into the vomit in the pedestrian area	0	0	1	0	0	1	0	0	1
+900	Sadness	I felt ... when my best friend moved away.	0	0	1	0	1	0	1	0	0
+620	Guilt	I felt ... when the diet plan did not survive lunch.	0	0	1	0	0	1	0	1	1
+388	Shame	I felt ... when I had to give a presentation to many strangers that I was not well prepared for.	0	0	1	0	1	1	0	0	0
+278	Sadness	I felt ... when I had to hand over my dog	0	0	1	0	1	0	1	0	0
+862	Joy	I felt ... when my second child was born.	0	0	1	0	1	0	1	0	1
+879	Joy	I felt ... when my wife survived cancer.	0	0	1	0	1	0	1	0	0
+244	Disgust	I feel ... when I smell kidney or liver.	1	0	0	0	0	1	0	0	1
+438	Sadness	I felt ... when they had to say goodbye to me	0	0	1	0	1	1	0	0	0
+581	Guilt	I felt ... when I hit my sister accidentally.	0	0	1	0	1	0	1	0	1
+1028	Joy	I felt ... when I could book my summer vacation at a reasonable price.	0	0	1	0	0	1	0	0	0
+178	Sadness	I felt ... when I had to cancel a private trip to take a professional journey.	0	0	1	0	0	1	0	0	0
+486	Guilt	I felt ... when I had badly injured an opponent in football after a foul.	0	0	1	0	1	0	1	0	1
+27	Disgust	I felt ... because somebody ate boiled snails next to me.	0	0	1	0	1	0	1	0	0
+149	Joy	I felt ... when a friend was really looking forward to a gift from me.	0	0	1	0	1	1	0	0	0
+508	Guilt	I felt ... that I could not spend more time with my children.	0	0	1	0	1	1	1	0	0
+664	Disgust	I felt ... when I saw a report about spiders on TV.	0	0	1	0	0	1	0	0	1
+213	Shame	I felt ... when I went to a sauna with friends. I will refrain in the future.	0	0	1	0	1	1	0	1	1
+256	Anger	I felt ... when at the supermarket checkout again only the pensioners over the long line excited, although they bought exactly at peak time.	0	0	1	0	1	1	0	0	0
+852	Anger	I felt ... about myself that I did not succeed in this business.	0	0	1	0	0	1	0	1	1
+823	Shame	I felt ... when a woman in the pool saw me naked.	0	0	1	0	1	1	1	0	0
+516	Anger	I felt ... that the limits for lucky knights are only open again in Germany.	1	0	0	0	0	0	1	0	0
+517	Joy	I felt ... when I got my wish present for Christmas.	0	0	1	0	0	1	0	0	0
+89	Shame	I felt ... about the appearance of the team at the World Cup	0	0	1	0	1	0	1	0	0
+452	Fear	I felt ... when I was left alone in the room as a kid.	0	0	1	0	0	1	0	0	0
+56	Fear	I felt ... when I parked late at night, relatively far from my apartment, and had to go home in the dark.	0	0	1	0	0	1	0	0	1
+472	Disgust	I felt ... when my son was in the diaper and I had to take it off.	0	0	1	0	1	1	0	0	0
+762	Sadness	I felt ... when my best friend moved to Australia.	0	0	1	0	1	0	1	0	0
+114	Disgust	I felt ... when I had to remove dog shit from my daughter's daughter	0	0	1	0	1	1	0	0	0
+855	Shame	I felt ... when I was unprepared for a lecture.	0	0	1	0	0	1	0	1	1
+173	Anger	I felt ... when I realized I was lying	0	0	1	0	0	1	1	0	1
+857	Sadness	I felt ... when I heard a dear friend's death.	0	0	1	0	1	0	1	0	1
+2	Fear	I felt ... when I got the diagnosis of cancer.	0	0	1	0	0	1	0	0	0
+943	Guilt	I felt ... when I wrongly accused my children of hiding something.	0	0	1	0	1	1	1	0	1
+81	Disgust	I felt ... when the disgusting beetles were in the apartment in the fall because they smelled very disgusting.	0	0	1	0	1	1	0	0	0
+39	Fear	I felt ... when the plane had to start again at the landing attempt	0	0	1	0	0	1	1	0	0
+238	Shame	I felt ... when a friend at a party completely failed and I could not do anything.	0	0	1	0	1	0	1	0	0
+761	Fear	I felt ... when a big dog ran unangeleint on me.	0	0	1	0	1	1	0	0	0
+170	Sadness	I felt ... when my club lost a 3 to 1 lead	0	0	1	0	1	0	1	0	0
+279	Guilt	I felt ... when I did not follow the diet plan again	0	0	1	0	0	1	0	1	1
+403	Fear	I felt ... when my son was taken to the hospital and a serious infection was treated there.	0	0	1	0	1	0	1	0	0
+188	Joy	I felt ... when I married my wife	0	0	1	0	1	1	1	1	1
+748	Shame	I felt ... because my jacket has a crack on the sleeve that everyone could see when shopping in the supermarket.	0	0	1	0	1	1	0	0	0
+989	Guilt	I felt ... because I insulted a co-worker for no apparent reason.	0	0	1	0	1	0	1	1	1
+662	Shame	I felt ... that once I stole a little thing in a shop.	0	0	1	0	0	1	1	1	1
+77	Sadness	I felt ... when I learned that my best friend is from now on a nursing case.	0	0	1	0	1	0	1	0	1
+1019	Sadness	I felt ... when our old dog - Labrador - died. He lived in the family for 14 years.	0	0	1	0	1	0	1	0	0
+966	Disgust	I felt ... when I saw a run over animal in the street.	0	0	1	0	1	0	1	0	1
+8	Joy	I felt ... when I saw my two friends so happy together	0	0	1	0	1	0	1	0	1
+480	Fear	I felt ... the first time I saw my 2 year old son responding to anesthetics before surgery.	0	0	1	0	1	0	1	0	1
+534	Fear	I felt ... as a teenager at night I walked alone on a deserted street and a stranger came quickly to me.	0	0	1	0	1	1	0	0	1
+799	Sadness	I felt ... as a garment that I wanted to order online was out of stock.	0	0	1	0	0	1	0	0	0
+262	Fear	I felt ... when I was surprised by a strong thunderstorm in the forest.	0	0	1	0	0	1	0	0	0
+151	Guilt	I felt ... when a friend fell heavily by bike due to my carelessness.	0	0	1	0	1	0	1	0	1
+939	Anger	I felt ... when I realized that I had been cheated.	0	0	1	0	0	1	0	0	1
+661	Anger	I felt ... that the telephone terror did not stop again	0	0	1	0	0	1	0	0	0
+610	Fear	I felt ... when I heard strange noises in the car.	0	0	1	0	0	1	0	0	1
+962	Sadness	I felt ... when my son came home crying with a bad grade, even though he had learned so much.	0	0	1	0	1	0	1	0	0
+347	Guilt	I felt ... when I accidentally hit a garden lamp with a football and it broke.	0	0	1	0	0	0	0	0	1
+465	Joy	I felt ... when I was finally pregnant with my longtime girlfriend.	0	0	1	0	1	1	1	0	1
+699	Disgust	I felt ... when I realized that the supposedly good cheese was moldy.	0	0	1	0	0	0	0	0	1
+719	Disgust	I felt ... when I drank bad milk.	0	0	1	0	0	1	0	0	1
+426	Shame	I felt ... when I forgot my best friend's birthday	0	0	1	0	1	0	0	0	1
+928	Sadness	I felt ... when my first cat died.	0	0	1	0	1	0	1	0	0
+220	Fear	I feel ... when we hear strange noises in the living room in the false ceiling. (I realize it's mostly just the mice, but after they rarely do that it's really freaky)	0	0	1	0	1	0	0	0	1
+60	Disgust	I felt ... when there were a lot of worms in and around the garbage bin in the summer.	0	0	1	0	1	0	1	0	0
+477	Fear	I feel ... that I could lose my job.	1	0	0	1	0	1	0	0	0
+126	Guilt	I felt ... when I overslept my girlfriend's birthday party	0	0	1	0	1	1	0	0	1
+131	Disgust	I felt ... when someone vomited.	0	0	1	0	1	0	1	0	0
+624	Sadness	I felt ... because a bet did not work.	0	0	1	0	0	1	0	0	0
+494	Fear	I felt ... when a person followed me on a lonely road at night.	0	0	1	0	1	1	0	0	0
+860	Fear	I felt ... when I was surprised by the flash of ice, and had to drive on.	0	0	1	0	0	1	0	0	1
+377	Guilt	I feel ... that I almost did not care for my pension at all.	0	0	1	0	0	1	0	1	1
+551	Guilt	I felt ... when I left home too late and missed the train.	0	0	1	0	0	1	0	0	1
+988	Fear	I felt ... when I had to drive in a glass elevator.	0	0	1	0	0	1	0	0	0
+419	Guilt	I felt ... when I lied to someone.	0	0	1	0	1	0	1	1	1
+112	Anger	I felt ... when I learned about the hate of law against foreigners.	0	0	1	0	1	0	1	0	1
+940	Shame	I felt ... when I pulled the rubber of the swimming trunks in the pool.	0	0	1	0	0	1	0	1	1
+961	Guilt	I felt ... when my parents stole money to buy stickers.	0	0	1	0	1	0	1	0	0
+51	Anger	I felt ... when I found out that my master had discriminated against me.	0	0	1	0	1	1	0	0	1
+127	Fear	I felt ... because I lost my children while shopping and found them only after a long search	0	0	1	0	1	1	0	0	1
+446	Fear	I felt ... when I had a nightmare that started in my bed.	0	0	1	0	0	1	0	0	0
+32	Guilt	I felt ... because sometimes I am too stingy to give something to poor people.	0	0	1	0	1	0	1	1	1
+968	Anger	I feel ... that "God" lets young people die.	0	0	1	0	1	0	1	0	0
+562	Shame	I felt ... when I unintentionally saw a scant woman in the cabin.	0	0	1	0	1	1	0	0	1
+266	Guilt	I felt ... when I forgot to pay the bill	0	0	1	0	0	1	0	0	1
+387	Anger	I felt ... from the day I found out that maybe our company will close and I will stay without work.	0	0	1	0	0	1	1	0	1
+673	Guilt	I felt ... when I moved my son's wish list for Christmas.	0	0	1	0	1	0	1	1	1
+133	Disgust	I felt ... when my colleague handed me a document with a sticky adobe attached to it.	0	0	1	0	1	1	0	0	0
+797	Sadness	I felt ... when I learned that my dog ​​could not help anymore.	0	0	1	0	1	0	1	0	1
+76	Disgust	I feel ... when I stepped into dog shit	0	0	1	0	0	1	0	0	1
+527	Shame	I felt ... when I was caught reading inappropriate books as a kid.	0	0	1	0	0	1	0	0	0
+351	Joy	I felt ... that I had my birthday.	0	0	1	0	0	1	0	0	0
+582	Guilt	I felt ... when I dropped my wife's favorite cup.	0	0	1	0	1	0	1	0	1
+180	Joy	I felt ... when the whole family from home and abroad was gathered under the Christmas tree.	0	0	1	0	1	1	1	0	0
+965	Anger	I felt ... when I saw a man beat another man without warning.	0	0	1	0	1	0	1	0	1
+803	Joy	I felt ... when I had an unexpected lottery win lately.	0	0	1	0	0	1	0	0	0
+683	Fear	I felt ... when I walked down the stairs by myself at night.	0	0	1	0	0	1	0	1	1
+111	Disgust	I felt ... when I had to clean the drain in the kitchen. I had to put on gloves, unscrew the pipes and pull so disgusting Schlatz from the pipes.	0	0	1	0	0	1	0	0	0
+728	Anger	I felt ... that the Greens and the SPD are so naive and self-destructive.	1	0	0	0	1	0	1	0	0
+863	Fear	I felt ... when I almost caused a serious accident by car.	0	0	1	1	0	1	1	0	1
+627	Joy	I felt ... when I married my girlfriend.	0	0	1	0	1	1	1	1	1
+732	Guilt	I felt ... when my grandfather got dementia and moved to my parents, but I seldom visited him.	0	0	1	0	1	0	1	1	1
+103	Disgust	I felt ... because someone left his soiled handkerchief on the desk.	0	0	1	0	1	0	1	0	0
+1005	Anger	I felt ... when I was sent home because we did not have work.	0	0	1	0	1	1	0	0	0
+14	Fear	I felt ... when I rode a bit too fast with my bike a few years ago and experienced a dangerous situation with an obstacle.	0	0	1	0	0	1	0	0	1
+64	Joy	I felt ... when I got approval for the rehab.	0	0	1	0	0	1	0	0	0
+856	Guilt	I felt ... when I scratched my brother's car.	0	0	1	0	1	0	1	0	1
+186	Joy	I felt ... when I got some gifts for my last birthday.	0	0	1	0	0	1	0	0	0
+380	Sadness	I felt ... as the day of departure approached	0	0	1	0	0	1	0	0	0
+930	Joy	I felt ... when I won a concert ticket.	0	0	1	0	0	1	0	0	1
+698	Shame	I felt ... when my pants stained.	0	0	1	0	0	1	0	0	0
+742	Sadness	I felt ... when my dog ​​died	0	0	1	0	1	0	1	0	0
+650	Guilt	I felt ... when I threw the boule bowl off the table on New Year's Eve.	0	0	1	0	0	0	0	0	1
+514	Fear	I felt ... when a gunman took me upstairs.	0	0	1	0	1	1	0	0	0
+384	Sadness	I felt ... when I found out that I did not get the new job.	0	0	1	0	0	1	0	0	1
+817	Anger	I felt ... when I was treated unfairly.	0	0	1	0	0	1	0	0	0
+125	Sadness	I felt ... when I heard about the death of a friend.	0	0	1	0	1	0	1	0	1
+26	Anger	I feel ... when I think about the future of the country	1	0	0	1	0	1	1	0	1
+864	Fear	I felt ... when my dog ​​was ill.	0	0	1	0	1	0	1	0	0
+685	Shame	I felt ... when I made a loud noise at a friend's toilet.	0	0	1	0	1	1	0	0	1
+776	Sadness	I felt ... because I had missed the visit of my friends.	0	0	1	0	1	1	0	0	1
+7	Fear	I felt ... from the day when many employees in my company lost their jobs.	0	0	1	0	1	0	1	0	0
+622	Fear	I felt ... as I was about to do a backflip from the 3m board.	0	1	0	1	0	1	0	1	1
+1036	Joy	I felt ... when the weekend started.	0	0	1	0	0	0	0	0	0
+325	Fear	I felt ... when I got lost in the snow	0	0	1	0	0	1	0	0	1
+931	Anger	I felt ... when the health insurance company refused to accept treatment.	0	0	1	0	0	1	0	0	0
+297	Sadness	I felt ... when a former classmate killed himself.	0	0	1	0	1	0	1	0	0
