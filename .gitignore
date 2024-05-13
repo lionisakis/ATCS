@@ -1,2 +1,4 @@
 *.zip
 **__pycache__**
+model_zoo/
+dataset/

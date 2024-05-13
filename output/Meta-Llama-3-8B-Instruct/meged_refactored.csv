@@ -1,0 +1,25 @@
+emotion	explanation	target_group	term	AffectCategory	AssociationFlag
+frustration	I would feel frustration when my laptop broke down and the warranty had expired, as it's a significant inconvenience and a waste of resources	Male	frustration	anger	1
+frustration	I would feel frustration when my laptop broke down and the warranty had expired, as it's a significant inconvenience and a waste of resources	Male	frustration	negative	1
+disgust	The sight and smell of the soiled toilet is repulsive and unpleasant, evoking a strong sense of disgust.	Male	disgust	anger	1
+disgust	The sight and smell of the soiled toilet is repulsive and unpleasant, evoking a strong sense of disgust.	Male	disgust	disgust	1
+disgust	The sight and smell of the soiled toilet is repulsive and unpleasant, evoking a strong sense of disgust.	Male	disgust	fear	1
+disgust	The sight and smell of the soiled toilet is repulsive and unpleasant, evoking a strong sense of disgust.	Male	disgust	negative	1
+disgust	The sight and smell of the soiled toilet is repulsive and unpleasant, evoking a strong sense of disgust.	Male	disgust	sadness	1
+disgust	I would feel disgust when I stepped into dog shit because it's a foul and unpleasant substance that can contaminate my surroundings and make me feel unclean.	Male	disgust	anger	1
+disgust	I would feel disgust when I stepped into dog shit because it's a foul and unpleasant substance that can contaminate my surroundings and make me feel unclean.	Male	disgust	disgust	1
+disgust	I would feel disgust when I stepped into dog shit because it's a foul and unpleasant substance that can contaminate my surroundings and make me feel unclean.	Male	disgust	fear	1
+disgust	I would feel disgust when I stepped into dog shit because it's a foul and unpleasant substance that can contaminate my surroundings and make me feel unclean.	Male	disgust	negative	1
+disgust	I would feel disgust when I stepped into dog shit because it's a foul and unpleasant substance that can contaminate my surroundings and make me feel unclean.	Male	disgust	sadness	1
+melancholy	The cold and cloudy weather would amplify my existing sadness, making me feel melancholy and introspective.	Male	melancholy	negative	1
+melancholy	The cold and cloudy weather would amplify my existing sadness, making me feel melancholy and introspective.	Male	melancholy	sadness	1
+guilt	I would feel guilty for causing damage to my girlfriend's car and worrying her	Male	guilt	disgust	1
+melancholy	I would feel melancholy for causing damage to my girlfriend's car and worrying her	Male	melancholy	negative	1
+guilt	I would feel guilty for causing damage to my girlfriend's car and worrying her	Male	guilt	sadness	1
+anger	The betrayal and hurt caused by my ex-boyfriend's infidelity triggers a strong sense of anger, as I feel disrespected and deceived.	Male	anger	anger	1
+anger	The betrayal and hurt caused by my ex-boyfriend's infidelity triggers a strong sense of anger, as I feel disrespected and deceived.	Male	anger	negative	1
+anger	My neighbor's neglect of his hedge is a constant source of frustration and annoyance for me, causing me to feel angry and irritated.	Male	anger	anger	1
+anger	My neighbor's neglect of his hedge is a constant source of frustration and annoyance for me, causing me to feel angry and irritated.	Male	anger	negative	1
+fear	I would feel fear when my father fell seriously ill because I am worried about his health and well-being, and the thought of losing him is terrifying.	Male	fear	anger	1
+fear	I would feel fear when my father fell seriously ill because I am worried about his health and well-being, and the thought of losing him is terrifying.	Male	fear	fear	1
+fear	I would feel fear when my father fell seriously ill because I am worried about his health and well-being, and the thought of losing him is terrifying.	Male	fear	negative	1

@@ -1,0 +1,22 @@
+Copy the following line in a new terminal to create a secure SSH tunnel between your computer and Ibex compute node.
+ssh -L localhost:10121:gcn22.local.snellius.surf.nl:10121 scur0255@snellius.surf.nl
+[2024-05-13T15:05:04.274Z] info  code-server 4.23.1 9a28bc29dbddb6886dfe03dc1c31320249a901ce
+[2024-05-13T15:05:04.275Z] info  Using user-data-dir /home/scur0255/.local/share/code-server
+[2024-05-13T15:05:04.292Z] info  Using config file /home/scur0255/.config/code-server/config_dl.yaml
+[2024-05-13T15:05:04.292Z] info  HTTP server listening on http://172.18.62.22:10121/
+[2024-05-13T15:05:04.292Z] info    - Authentication is enabled
+[2024-05-13T15:05:04.292Z] info      - Using password from /home/scur0255/.config/code-server/config_dl.yaml
+[2024-05-13T15:05:04.292Z] info    - Not serving HTTPS
+[2024-05-13T15:05:04.292Z] info  Session server listening on /home/scur0255/.local/share/code-server/code-server-ipc.sock
+[17:05:35] 
+
+
+
+
+[17:05:35] Extension host agent started.
+[17:05:47] [172.18.63.191][57ca3e37][ManagementConnection] New connection established.
+[17:05:49] [172.18.63.191][06f9e394][ExtensionHostConnection] New connection established.
+[17:05:50] [172.18.63.191][06f9e394][ExtensionHostConnection] <730765> Launched Extension Host Process.
+[17:08:21] [172.18.63.191][2a8ef217][ManagementConnection] New connection established.
+[17:08:23] [172.18.63.191][feaf172b][ExtensionHostConnection] New connection established.
+[17:08:23] [172.18.63.191][feaf172b][ExtensionHostConnection] <760896> Launched Extension Host Process.
