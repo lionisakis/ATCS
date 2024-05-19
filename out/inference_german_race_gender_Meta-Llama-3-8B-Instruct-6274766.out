@@ -1,0 +1,62 @@
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='Black man', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='Black woman', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='Hispanic man', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='Hispanic woman', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='Asian man', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='Asian woman', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='White man', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='White woman', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='Black man', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='Black woman', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='Hispanic man', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='Hispanic woman', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='Asian man', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='Asian woman', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='White man', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='White woman', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='Black man', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='Black woman', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='Hispanic man', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='Hispanic woman', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='Asian man', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='Asian woman', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='White man', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='White woman', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+
+JOB STATISTICS
+==============
+Job ID: 6274766
+Cluster: snellius
+User/Group: scur0255/scur0255
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:12:19
+CPU Efficiency: 5.46% of 03:45:36 core-walltime
+Job Wall-clock time: 00:12:32
+Memory Utilized: 5.13 GB
+Memory Efficiency: 16.42% of 31.25 GB

@@ -6,7 +6,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=18
 #SBATCH --time=00:55:00
-#SBATCH --output=../out/install_llama_env-%A.out
+#SBATCH --output=./out/install_llama_env-%A.out
 
 #exit if an error occurs
 set -e 

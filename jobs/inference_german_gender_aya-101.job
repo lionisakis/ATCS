@@ -1,0 +1,29 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu
+#SBATCH --gpus=1
+#SBATCH --job-name=D_g_a
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=04:00:00
+#SBATCH --mem=16000M
+#SBATCH --output=./out/inference_german_gender_aya-101-%A.out
+#SBATCH --error=./err/inference_german_gender_aya-101-%A.err
+
+module purge
+module load 2022
+module load Anaconda3/2022.05
+
+# Your job starts in the directory where you call sbatch
+
+# Activate your environment
+source activate llama_3_instruct
+
+python modules/main.py --model_name model_zoo/meta-llama/aya-101 --target_group female --template 1 --batch_size 16  --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/aya-101 --target_group male --template 1 --batch_size 16 --german --pred_path dataset/deISEARenISEAR/deISEAR
+
+python modules/main.py --model_name model_zoo/meta-llama/aya-101 --target_group female --template 2 --batch_size 16 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/aya-101 --target_group male --template 2 --batch_size 16 --german --pred_path dataset/deISEARenISEAR/deISEAR
+
+python modules/main.py --model_name model_zoo/meta-llama/aya-101 --target_group female --template 3 --batch_size 16 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/aya-101 --target_group male --template 3 --batch_size 16 --german --pred_path dataset/deISEARenISEAR/deISEAR

@@ -1,0 +1,26 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:16<00:48, 16.22s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:33<00:34, 17.09s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:51<00:17, 17.18s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 11.85s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 13.72s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:15<00:47, 15.94s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:33<00:34, 17.19s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:51<00:17, 17.50s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:55<00:00, 12.14s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:55<00:00, 13.95s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:16,  5.51s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:23<00:25, 12.65s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:28<00:09,  9.20s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:29<00:00,  6.10s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:29<00:00,  7.40s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:15,  5.21s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:10,  5.27s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:15<00:05,  5.12s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:16<00:00,  3.64s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:16<00:00,  4.21s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+slurmstepd: error: *** JOB 6272957 ON gcn37 CANCELLED AT 2024-05-18T05:56:24 DUE TO TIME LIMIT ***
+slurmstepd: error: container_p_join: setns failed for /slurm/6272957/.ns: Invalid argument
+slurmstepd: error: container_g_join(6272957): Invalid argument

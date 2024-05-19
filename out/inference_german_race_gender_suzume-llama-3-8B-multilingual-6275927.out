@@ -1,0 +1,62 @@
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='Black man', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='Black woman', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='Hispanic man', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='Hispanic woman', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='Asian man', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='Asian woman', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='White man', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='White woman', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='Black man', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='Black woman', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='Hispanic man', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='Hispanic woman', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='Asian man', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='Asian woman', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='White man', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='White woman', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='Black man', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='Black woman', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='Hispanic man', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='Hispanic woman', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='Asian man', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='Asian woman', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='White man', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='White woman', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=1)
+
+JOB STATISTICS
+==============
+Job ID: 6275927
+Cluster: snellius
+User/Group: scur0255/scur0255
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:12:14
+CPU Efficiency: 5.46% of 03:44:06 core-walltime
+Job Wall-clock time: 00:12:27
+Memory Utilized: 5.37 GB
+Memory Efficiency: 17.18% of 31.25 GB

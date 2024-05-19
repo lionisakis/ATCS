@@ -1,0 +1,26 @@
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='female', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='male', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='female', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='male', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='female', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='male', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+
+JOB STATISTICS
+==============
+Job ID: 6274761
+Cluster: snellius
+User/Group: scur0255/scur0255
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:23:28
+CPU Efficiency: 7.37% of 05:18:36 core-walltime
+Job Wall-clock time: 00:17:42
+Memory Utilized: 6.32 GB
+Memory Efficiency: 40.43% of 15.62 GB

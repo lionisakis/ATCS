@@ -1,0 +1,535 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.73s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.81s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.77s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.69s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 200, in main
+    responses = model.generate_responses(
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 147, in generate_responses
+    generated_responses = self.model(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 240, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1223, in __call__
+    outputs = list(final_iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
+    item = next(self.iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 125, in __next__
+    processed = self.infer(item, **self.params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1149, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 327, in _forward
+    generated_sequence = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 1576, in generate
+    result = self._greedy_search(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 2494, in _greedy_search
+    outputs = self(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1228, in forward
+    logits = logits.float()
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 10.61 GiB. GPU 
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.73s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.96s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:18<00:06,  6.29s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:19<00:00,  4.38s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:19<00:00,  4.99s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 200, in main
+    responses = model.generate_responses(
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 147, in generate_responses
+    generated_responses = self.model(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 240, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1223, in __call__
+    outputs = list(final_iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
+    item = next(self.iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 125, in __next__
+    processed = self.infer(item, **self.params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1149, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 327, in _forward
+    generated_sequence = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 1576, in generate
+    result = self._greedy_search(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 2494, in _greedy_search
+    outputs = self(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1228, in forward
+    logits = logits.float()
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 10.61 GiB. GPU 
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.73s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.81s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.76s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.68s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 200, in main
+    responses = model.generate_responses(
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 147, in generate_responses
+    generated_responses = self.model(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 240, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1223, in __call__
+    outputs = list(final_iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
+    item = next(self.iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 125, in __next__
+    processed = self.infer(item, **self.params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1149, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 327, in _forward
+    generated_sequence = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 1576, in generate
+    result = self._greedy_search(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 2494, in _greedy_search
+    outputs = self(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1228, in forward
+    logits = logits.float()
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 10.61 GiB. GPU 
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.72s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.79s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.76s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.68s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 200, in main
+    responses = model.generate_responses(
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 147, in generate_responses
+    generated_responses = self.model(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 240, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1223, in __call__
+    outputs = list(final_iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
+    item = next(self.iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 125, in __next__
+    processed = self.infer(item, **self.params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1149, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 327, in _forward
+    generated_sequence = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 1576, in generate
+    result = self._greedy_search(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 2494, in _greedy_search
+    outputs = self(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1228, in forward
+    logits = logits.float()
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 10.61 GiB. GPU 
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.68s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.79s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.75s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.67s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 200, in main
+    responses = model.generate_responses(
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 147, in generate_responses
+    generated_responses = self.model(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 240, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1223, in __call__
+    outputs = list(final_iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
+    item = next(self.iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 125, in __next__
+    processed = self.infer(item, **self.params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1149, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 327, in _forward
+    generated_sequence = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 1576, in generate
+    result = self._greedy_search(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 2494, in _greedy_search
+    outputs = self(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1228, in forward
+    logits = logits.float()
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 10.92 GiB. GPU 
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:15,  5.26s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:11,  5.52s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:16<00:05,  5.48s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  3.86s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  4.45s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 200, in main
+    responses = model.generate_responses(
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 147, in generate_responses
+    generated_responses = self.model(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 240, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1223, in __call__
+    outputs = list(final_iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
+    item = next(self.iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 125, in __next__
+    processed = self.infer(item, **self.params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1149, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 327, in _forward
+    generated_sequence = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 1576, in generate
+    result = self._greedy_search(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 2494, in _greedy_search
+    outputs = self(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1228, in forward
+    logits = logits.float()
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 10.92 GiB. GPU 
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:16,  5.49s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.56s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:16<00:05,  5.52s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  3.88s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  4.48s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 200, in main
+    responses = model.generate_responses(
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 147, in generate_responses
+    generated_responses = self.model(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 240, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1223, in __call__
+    outputs = list(final_iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
+    item = next(self.iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 125, in __next__
+    processed = self.infer(item, **self.params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1149, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 327, in _forward
+    generated_sequence = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 1576, in generate
+    result = self._greedy_search(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 2494, in _greedy_search
+    outputs = self(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1228, in forward
+    logits = logits.float()
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 10.92 GiB. GPU 
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:16,  5.37s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:11,  5.52s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:16<00:05,  5.46s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  3.85s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  4.44s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 200, in main
+    responses = model.generate_responses(
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 147, in generate_responses
+    generated_responses = self.model(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 240, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1223, in __call__
+    outputs = list(final_iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
+    item = next(self.iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 125, in __next__
+    processed = self.infer(item, **self.params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1149, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 327, in _forward
+    generated_sequence = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 1576, in generate
+    result = self._greedy_search(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 2494, in _greedy_search
+    outputs = self(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1228, in forward
+    logits = logits.float()
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 10.92 GiB. GPU 
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.72s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:12<00:12,  6.40s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:18<00:06,  6.06s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:19<00:00,  4.23s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:19<00:00,  4.92s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 200, in main
+    responses = model.generate_responses(
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 147, in generate_responses
+    generated_responses = self.model(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 240, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1223, in __call__
+    outputs = list(final_iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
+    item = next(self.iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 125, in __next__
+    processed = self.infer(item, **self.params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1149, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 327, in _forward
+    generated_sequence = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 1576, in generate
+    result = self._greedy_search(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 2494, in _greedy_search
+    outputs = self(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1228, in forward
+    logits = logits.float()
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 10.15 GiB. GPU 
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.70s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.79s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.73s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.03s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.66s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 200, in main
+    responses = model.generate_responses(
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 147, in generate_responses
+    generated_responses = self.model(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 240, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1223, in __call__
+    outputs = list(final_iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
+    item = next(self.iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 125, in __next__
+    processed = self.infer(item, **self.params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1149, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 327, in _forward
+    generated_sequence = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 1576, in generate
+    result = self._greedy_search(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 2494, in _greedy_search
+    outputs = self(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1228, in forward
+    logits = logits.float()
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 10.15 GiB. GPU 
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.70s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.78s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.72s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.02s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.65s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 200, in main
+    responses = model.generate_responses(
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 147, in generate_responses
+    generated_responses = self.model(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 240, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1223, in __call__
+    outputs = list(final_iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
+    item = next(self.iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 125, in __next__
+    processed = self.infer(item, **self.params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1149, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 327, in _forward
+    generated_sequence = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 1576, in generate
+    result = self._greedy_search(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 2494, in _greedy_search
+    outputs = self(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1228, in forward
+    logits = logits.float()
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 10.15 GiB. GPU 
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.74s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.82s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.78s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.06s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.69s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 200, in main
+    responses = model.generate_responses(
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 147, in generate_responses
+    generated_responses = self.model(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 240, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1223, in __call__
+    outputs = list(final_iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
+    item = next(self.iterator)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 125, in __next__
+    processed = self.infer(item, **self.params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1149, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 327, in _forward
+    generated_sequence = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 1576, in generate
+    result = self._greedy_search(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 2494, in _greedy_search
+    outputs = self(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1228, in forward
+    logits = logits.float()
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 10.15 GiB. GPU 

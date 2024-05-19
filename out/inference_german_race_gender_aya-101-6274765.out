@@ -1,0 +1,62 @@
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='Black man', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='Black woman', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='Hispanic man', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='Hispanic woman', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='Asian man', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='Asian woman', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='White man', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='White woman', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='Black man', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='Black woman', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='Hispanic man', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='Hispanic woman', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='Asian man', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='Asian woman', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='White man', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='White woman', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='Black man', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='Black woman', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='Hispanic man', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='Hispanic woman', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='Asian man', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='Asian woman', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='White man', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='White woman', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=16)
+
+JOB STATISTICS
+==============
+Job ID: 6274765
+Cluster: snellius
+User/Group: scur0255/scur0255
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 01:36:22
+CPU Efficiency: 7.65% of 20:59:24 core-walltime
+Job Wall-clock time: 01:09:58
+Memory Utilized: 6.02 GB
+Memory Efficiency: 38.53% of 15.62 GB

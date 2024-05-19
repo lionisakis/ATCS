@@ -1,0 +1,16 @@
+args:
+Namespace(model_name='model_zoo/meta-llama/aya-101', target_group='female', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/de2enISEAR.tsv', output_dir='./output', recall=False, german=False, batch_size=16)
+
+JOB STATISTICS
+==============
+Job ID: 6270788
+Cluster: snellius
+User/Group: scur0255/scur0255
+State: CANCELLED (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:02
+CPU Efficiency: 0.02% of 02:38:24 core-walltime
+Job Wall-clock time: 00:08:48
+Memory Utilized: 1.83 GB
+Memory Efficiency: 5.87% of 31.25 GB

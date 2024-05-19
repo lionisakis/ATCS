@@ -1,0 +1,29 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu
+#SBATCH --gpus=1
+#SBATCH --job-name=recall
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=04:00:00
+#SBATCH --mem=32000M
+#SBATCH --output=./out/inference_recall_Meta-Llama-3-8B-Instruct-%A.out
+#SBATCH --error=./err/inference_recall_Meta-Llama-3-8B-Instruct-%A.err
+
+module purge
+module load 2022
+module load Anaconda3/2022.05
+
+# Your job starts in the directory where you call sbatch
+
+# Activate your environment
+source activate llama_3_instruct
+
+python modules/main.py --model_name model_zoo/meta-llama/Meta-Llama-3-8B-Instruct --target_group female --template 1 --batch_size 64 --recall
+python modules/main.py --model_name model_zoo/meta-llama/Meta-Llama-3-8B-Instruct --target_group male --template 1 --batch_size 64  --recall
+
+python modules/main.py --model_name model_zoo/meta-llama/Meta-Llama-3-8B-Instruct --target_group female --template 2 --batch_size 64 --recall
+python modules/main.py --model_name model_zoo/meta-llama/Meta-Llama-3-8B-Instruct --target_group male --template 2 --batch_size 64 --recall
+
+python modules/main.py --model_name model_zoo/meta-llama/Meta-Llama-3-8B-Instruct --target_group female --template 3 --batch_size 64 --recall
+python modules/main.py --model_name model_zoo/meta-llama/Meta-Llama-3-8B-Instruct --target_group male --template 3 --batch_size 64 --recall

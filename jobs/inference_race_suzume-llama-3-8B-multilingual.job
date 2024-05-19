@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu
+#SBATCH --gpus=1
+#SBATCH --job-name=E_r_s
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=08:00:00
+#SBATCH --mem=32000M
+#SBATCH --output=./out/inference_race_suzume-llama-3-8B-multilingual-%A.out
+#SBATCH --error=./err/inference_race_suzume-llama-3-8B-multilingual-%A.err
+
+module purge
+module load 2022
+module load Anaconda3/2022.05
+
+# Your job starts in the directory where you call sbatch
+
+# Activate your environment
+source activate llama_3_instruct
+
+# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Black person" --template 1 --batch_size 1
+# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Hispanic person" --template 1 --batch_size 1
+# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Asian person" --template 1 --batch_size 1
+# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "White person" --template 1 --batch_size 1
+
+# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Black person" --template 2 --batch_size 1
+# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Hispanic person" --template 2 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Asian person" --template 2 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "White person" --template 2 --batch_size 1
+
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Black person" --template 3 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Hispanic person" --template 3 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Asian person" --template 3 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "White person" --template 3 --batch_size 1

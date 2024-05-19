@@ -1,0 +1,471 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:11<01:50, 11.05s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:25<01:59, 13.23s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:41<01:54, 14.32s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [00:57<01:44, 14.91s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:14<01:34, 15.80s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:29<01:18, 15.63s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:46<01:04, 16.03s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [02:03<00:48, 16.26s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:20<00:32, 16.44s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:30<00:14, 14.54s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:41<00:00, 13.35s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:41<00:00, 14.66s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:12<02:05, 12.57s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:27<02:07, 14.15s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:43<01:59, 15.00s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [00:59<01:47, 15.42s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:16<01:35, 15.89s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:32<01:18, 15.79s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:47<01:03, 15.78s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [02:03<00:46, 15.56s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:18<00:30, 15.50s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:27<00:13, 13.53s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:37<00:00, 12.48s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:37<00:00, 14.33s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:10<01:48, 10.86s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:24<01:50, 12.25s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:37<01:41, 12.69s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [00:48<01:25, 12.22s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:04<01:20, 13.41s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:19<01:10, 14.06s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:34<00:56, 14.17s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [01:43<00:38, 12.80s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [01:48<00:20, 10.14s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [01:50<00:07,  7.67s/it]Loading checkpoint shards: 100%|██████████| 11/11 [01:53<00:00,  6.29s/it]Loading checkpoint shards: 100%|██████████| 11/11 [01:53<00:00, 10.32s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:02<00:25,  2.54s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:07<00:36,  4.06s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:25<01:23, 10.49s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [00:43<01:33, 13.38s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:01<01:29, 14.85s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:18<01:18, 15.80s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:36<01:05, 16.40s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [01:45<00:42, 14.16s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:03<00:30, 15.32s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:15<00:14, 14.13s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:24<00:00, 12.80s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:24<00:00, 13.17s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:13<02:12, 13.25s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:30<02:22, 15.85s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:49<02:16, 17.07s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [01:06<02:00, 17.24s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:26<01:48, 18.02s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:44<01:30, 18.14s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [02:02<01:12, 18.15s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [02:21<00:55, 18.41s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:40<00:36, 18.34s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:51<00:16, 16.13s/it]Loading checkpoint shards: 100%|██████████| 11/11 [03:01<00:00, 14.32s/it]Loading checkpoint shards: 100%|██████████| 11/11 [03:01<00:00, 16.49s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:13<02:10, 13.08s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:30<02:22, 15.84s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:47<02:11, 16.43s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [01:05<01:57, 16.79s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:23<01:43, 17.22s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:41<01:27, 17.57s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:59<01:11, 17.82s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [02:17<00:53, 17.86s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:35<00:35, 17.92s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:47<00:15, 15.92s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:57<00:00, 14.15s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:57<00:00, 16.13s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:12<02:09, 12.99s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:30<02:20, 15.56s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:47<02:11, 16.41s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [01:05<01:57, 16.78s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:23<01:44, 17.44s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:42<01:28, 17.79s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:59<01:10, 17.61s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [02:17<00:53, 17.81s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:36<00:35, 17.98s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:47<00:15, 15.90s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:57<00:00, 14.04s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:57<00:00, 16.10s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:12<02:08, 12.86s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:30<02:23, 15.94s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:49<02:15, 16.91s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [01:06<01:59, 17.13s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:24<01:45, 17.56s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:42<01:27, 17.56s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [02:00<01:11, 17.75s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [02:18<00:53, 17.92s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:37<00:36, 18.19s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:49<00:16, 16.21s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:59<00:00, 14.28s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:59<00:00, 16.30s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:12<02:04, 12.43s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:30<02:22, 15.88s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:48<02:14, 16.77s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [01:06<02:00, 17.26s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:24<01:45, 17.65s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:42<01:28, 17.72s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [02:02<01:13, 18.44s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [02:21<00:55, 18.54s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:39<00:36, 18.41s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:50<00:16, 16.09s/it]Loading checkpoint shards: 100%|██████████| 11/11 [03:00<00:00, 14.19s/it]Loading checkpoint shards: 100%|██████████| 11/11 [03:00<00:00, 16.39s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:13<02:19, 13.93s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:36<02:49, 18.87s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:57<02:39, 19.90s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [01:18<02:22, 20.37s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:40<02:06, 21.11s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [02:04<01:48, 21.79s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [02:23<01:24, 21.00s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [02:41<01:00, 20.16s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [03:00<00:39, 19.75s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [03:11<00:17, 17.08s/it]Loading checkpoint shards: 100%|██████████| 11/11 [03:21<00:00, 14.92s/it]Loading checkpoint shards: 100%|██████████| 11/11 [03:21<00:00, 18.34s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:15<02:37, 15.70s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:35<02:41, 17.92s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:53<02:23, 17.89s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [01:10<02:02, 17.55s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:28<01:46, 17.83s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:45<01:28, 17.67s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [02:03<01:10, 17.66s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [02:20<00:52, 17.61s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:38<00:35, 17.76s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:49<00:15, 15.52s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:59<00:00, 13.81s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:59<00:00, 16.31s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:12<02:04, 12.46s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:29<02:16, 15.13s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:46<02:08, 16.09s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [01:04<01:56, 16.66s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:22<01:42, 17.10s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:40<01:26, 17.39s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:57<01:09, 17.48s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [02:15<00:53, 17.67s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:34<00:35, 17.86s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:45<00:15, 15.74s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:54<00:00, 13.95s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:54<00:00, 15.91s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:12<02:05, 12.56s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:28<02:11, 14.60s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:43<01:58, 14.75s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [00:59<01:45, 15.09s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:14<01:31, 15.31s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:30<01:16, 15.29s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:44<00:59, 14.99s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [01:59<00:45, 15.09s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:13<00:29, 14.79s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:22<00:12, 12.94s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:31<00:00, 11.57s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:31<00:00, 13.74s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:12<02:05, 12.59s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:27<02:04, 13.86s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:43<02:00, 15.08s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [00:58<01:45, 15.08s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:14<01:30, 15.10s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:30<01:17, 15.51s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:44<01:00, 15.10s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [01:58<00:44, 14.82s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:13<00:29, 14.71s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:22<00:12, 12.87s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:30<00:00, 11.49s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:30<00:00, 13.68s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:11<01:57, 11.79s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:27<02:07, 14.15s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:44<02:01, 15.19s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [00:59<01:47, 15.33s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:14<01:30, 15.16s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:30<01:17, 15.44s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:43<00:59, 14.82s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [01:58<00:44, 14.67s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:12<00:28, 14.47s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:21<00:12, 12.75s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:30<00:00, 11.66s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:30<00:00, 13.67s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:12<02:04, 12.49s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:27<02:06, 14.00s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:43<02:00, 15.03s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [00:59<01:48, 15.47s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:15<01:32, 15.44s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:31<01:18, 15.68s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:46<01:02, 15.52s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [02:01<00:45, 15.19s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:15<00:29, 14.77s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:23<00:12, 12.82s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:32<00:00, 11.59s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:32<00:00, 13.84s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:12<02:01, 12.18s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:27<02:06, 14.11s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:43<02:00, 15.08s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [00:59<01:47, 15.34s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:15<01:33, 15.57s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:31<01:18, 15.78s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:46<01:02, 15.55s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [02:01<00:45, 15.28s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:15<00:29, 14.74s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:24<00:13, 13.14s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:33<00:00, 11.93s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:33<00:00, 13.99s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:12<02:03, 12.35s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:27<02:04, 13.87s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:42<01:55, 14.48s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [00:58<01:44, 14.96s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:14<01:31, 15.32s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:29<01:17, 15.42s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:44<01:00, 15.20s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [01:59<00:45, 15.05s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:13<00:29, 14.78s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:21<00:12, 12.84s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:30<00:00, 11.53s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:30<00:00, 13.68s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:13<02:10, 13.05s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:28<02:07, 14.21s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:44<02:00, 15.07s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [00:59<01:46, 15.23s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:14<01:29, 14.99s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:30<01:16, 15.31s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:43<00:58, 14.72s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [01:58<00:44, 14.76s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:12<00:29, 14.57s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:21<00:12, 12.73s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:30<00:00, 11.70s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:30<00:00, 13.69s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:12<02:01, 12.11s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:27<02:04, 13.81s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:43<01:58, 14.84s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [00:59<01:47, 15.31s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:14<01:31, 15.17s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:29<01:16, 15.23s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:43<00:59, 14.83s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [01:57<00:44, 14.67s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:12<00:29, 14.59s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:20<00:12, 12.77s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:29<00:00, 11.45s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:29<00:00, 13.58s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:12<02:01, 12.11s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:27<02:04, 13.87s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:42<01:57, 14.68s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [00:58<01:44, 14.88s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:12<01:28, 14.73s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:27<01:14, 14.98s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:42<00:59, 14.98s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [01:57<00:44, 15.00s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:12<00:29, 14.74s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:20<00:12, 12.92s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:29<00:00, 11.65s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:29<00:00, 13.61s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:12<02:01, 12.13s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:26<02:02, 13.65s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:43<01:58, 14.85s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [00:58<01:44, 15.00s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:13<01:29, 14.96s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:28<01:15, 15.10s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:43<01:00, 15.08s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [01:58<00:44, 14.89s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:12<00:29, 14.57s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:21<00:12, 12.94s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:30<00:00, 11.78s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:30<00:00, 13.68s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:11<01:59, 11.93s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:26<02:03, 13.71s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:42<01:58, 14.77s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [00:58<01:45, 15.00s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:12<01:29, 14.86s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:29<01:16, 15.29s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:44<01:00, 15.24s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [01:58<00:45, 15.01s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:12<00:29, 14.54s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:21<00:12, 12.84s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:29<00:00, 11.52s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:29<00:00, 13.61s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:12<02:01, 12.13s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:27<02:08, 14.32s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:44<02:02, 15.28s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [01:00<01:49, 15.57s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:15<01:33, 15.54s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:32<01:18, 15.78s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:46<01:01, 15.29s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [02:00<00:44, 14.90s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:14<00:28, 14.50s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:23<00:12, 12.96s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:32<00:00, 11.65s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:32<00:00, 13.85s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'

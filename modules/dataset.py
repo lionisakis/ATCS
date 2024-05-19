@@ -40,7 +40,7 @@ class CustomDataset(Dataset):
         ],
     ):
         self.data = pd.read_csv(tsv_file, sep="\t")
-        self.data["Target_Group"] = target_group
+        # self.data["Target_Group"] = target_group
         self.list_of_dicts = self.data.to_dict("records")
         self.sentence_id = self.data["Sentence_id"].values
         # print(self.sentence_id)
@@ -74,7 +74,7 @@ class CustomDataset(Dataset):
 
     def __getitem__(self, idx):
         return (
-            self.target_group[idx],
+            # self.target_group[idx],
             self.Sentence[idx],
             self.Prior_Emotion[idx],
             self.Annotation[idx],

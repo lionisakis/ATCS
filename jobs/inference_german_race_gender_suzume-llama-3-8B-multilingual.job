@@ -1,0 +1,47 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu
+#SBATCH --gpus=1
+#SBATCH --job-name=D_r_g_s
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=04:00:00
+#SBATCH --mem=32000M
+#SBATCH --output=./out/inference_german_race_gender_suzume-llama-3-8B-multilingual-%A.out
+#SBATCH --error=./err/inference_german_race_gender_suzume-llama-3-8B-multilingual-%A.err
+
+module purge
+module load 2022
+module load Anaconda3/2022.05
+
+# Your job starts in the directory where you call sbatch
+
+# Activate your environment
+source activate llama_3_instruct
+
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Black man" --template 1 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Black woman" --template 1 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Hispanic man" --template 1 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Hispanic woman" --template 1 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Asian man" --template 1 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Asian woman" --template 1 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "White man" --template 1 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "White woman" --template 1 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Black man" --template 2 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Black woman" --template 2 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Hispanic man" --template 2 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Hispanic woman" --template 2 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Asian man" --template 2 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Asian woman" --template 2 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "White man" --template 2 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "White woman" --template 2 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Black man" --template 3 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Black woman" --template 3 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Hispanic man" --template 3 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Hispanic woman" --template 3 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Asian man" --template 3 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Asian woman" --template 3 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "White man" --template 3 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "White woman" --template 3 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR

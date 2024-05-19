@@ -1,0 +1,27 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:15<00:47, 15.75s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:33<00:34, 17.08s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:50<00:17, 17.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 11.79s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 13.63s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:15<00:46, 15.49s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:33<00:33, 16.91s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:50<00:16, 16.95s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 11.71s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 13.52s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:15<00:46, 15.43s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:32<00:33, 16.58s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:49<00:16, 16.71s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 11.64s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 13.39s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:15<00:47, 15.67s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:33<00:33, 16.75s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:50<00:17, 17.09s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 11.92s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 13.67s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:15<00:45, 15.33s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:33<00:33, 16.82s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:50<00:17, 17.04s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 11.78s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 13.55s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:15<00:46, 15.64s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:33<00:34, 17.01s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:50<00:17, 17.15s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 11.85s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 13.66s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.

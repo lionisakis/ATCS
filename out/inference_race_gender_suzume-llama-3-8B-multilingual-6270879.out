@@ -1,0 +1,16 @@
+args:
+Namespace(model_name='model_zoo/meta-llama/suzume-llama-3-8B-multilingual', target_group='Black man', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/de2enISEAR.tsv', output_dir='./output', recall=False, german=False, batch_size=1)
+
+JOB STATISTICS
+==============
+Job ID: 6270879
+Cluster: snellius
+User/Group: scur0255/scur0255
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:02
+CPU Efficiency: 0.00% of 18:05:06 core-walltime
+Job Wall-clock time: 01:00:17
+Memory Utilized: 4.27 GB
+Memory Efficiency: 13.67% of 31.25 GB

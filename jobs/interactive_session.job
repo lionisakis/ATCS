@@ -6,8 +6,8 @@
 #SBATCH --cpus-per-task=18
 #SBATCH --gpus=1
 #SBATCH --job-name=interactive
-#SBATCH --time=00:59:00
-#SBATCH --output=../out/interactive-session-snellius-%A.out
+#SBATCH --time=00:40:00
+#SBATCH --output=interactive-session-snellius-%A.out
 
 set -e
 

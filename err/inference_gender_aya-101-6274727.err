@@ -1,0 +1,22 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:09<01:38,  9.83s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:23<01:48, 12.06s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:37<01:42, 12.85s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [00:51<01:33, 13.42s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:07<01:26, 14.35s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:22<01:13, 14.72s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:37<00:59, 14.81s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [01:53<00:45, 15.05s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:09<00:30, 15.23s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:18<00:13, 13.52s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:28<00:00, 12.29s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:28<00:00, 13.48s/it]
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 201, in main
+    dataset, args.template, args.recall, args.german
+AttributeError: 'Namespace' object has no attribute 'german'

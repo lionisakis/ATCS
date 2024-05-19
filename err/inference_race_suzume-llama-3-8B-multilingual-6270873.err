@@ -1,0 +1,20 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:14,  4.80s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.93s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:14<00:04,  4.89s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.43s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:15<00:00,  3.96s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+slurmstepd: error: *** JOB 6270873 ON gcn28 CANCELLED AT 2024-05-17T21:10:30 DUE TO TIME LIMIT ***
+slurmstepd: error: container_p_join: setns failed for /slurm/6270873/.ns: Invalid argument
+slurmstepd: error: container_g_join(6270873): Invalid argument

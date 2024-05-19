@@ -1,0 +1,20 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:15<00:45, 15.03s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:32<00:33, 16.59s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:49<00:16, 16.68s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 11.55s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 13.29s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:17<00:52, 17.45s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:39<00:40, 20.36s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:58<00:19, 19.78s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:02<00:00, 13.44s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:02<00:00, 15.67s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+slurmstepd: error: *** JOB 6270876 ON gcn64 CANCELLED AT 2024-05-18T01:53:56 DUE TO TIME LIMIT ***
