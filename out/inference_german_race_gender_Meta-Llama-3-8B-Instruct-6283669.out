@@ -1,0 +1,62 @@
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='schwarze Mann', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='schwarze Frau', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='hispanische Mann', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='hispanische Frau', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='asiatische Mann', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='asiatische Frau', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='weiße Mann', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='weiße Frau', name_of_message=0, template=1, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='schwarze Mann', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='schwarze Frau', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='hispanische Mann', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='hispanische Frau', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='asiatische Mann', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='asiatische Frau', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='weiße Mann', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='weiße Frau', name_of_message=0, template=2, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='schwarze Mann', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='schwarze Frau', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='hispanische Mann', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='hispanische Frau', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='asiatische Mann', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='asiatische Frau', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='weiße Mann', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+args:
+Namespace(model_name='model_zoo/meta-llama/Meta-Llama-3-8B-Instruct', target_group='weiße Frau', name_of_message=0, template=3, pred_path='dataset/deISEARenISEAR/deISEAR', output_dir='./output', recall=False, german=True, batch_size=64)
+
+JOB STATISTICS
+==============
+Job ID: 6283669
+Cluster: snellius
+User/Group: scur0255/scur0255
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:12:21
+CPU Efficiency: 5.45% of 03:46:48 core-walltime
+Job Wall-clock time: 00:12:36
+Memory Utilized: 4.97 GB
+Memory Efficiency: 15.90% of 31.25 GB
