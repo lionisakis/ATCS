@@ -15,6 +15,10 @@ repo
 |-- poster.md
 |-- paper.pdf
 |-- requirements_llama_three.txt
+|-- out
+|   |-- ... (.out files)
+|-- err
+|   |-- ... (.err files)
 |-- dataset
 |   |-- deISEARenISEAR
 |   |-- NRC-Emotion-Lexicon
