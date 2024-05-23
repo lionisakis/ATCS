@@ -1,22 +1,0 @@
-============================================================================================== 
-Warning! Mixing Conda and module environments may lead to corruption of the
-user environment. 
-We do not recommend users mixing those two environments unless absolutely
-necessary. Note that 
-SURF does not provide any support for Conda environment.
-For more information, please refer to our software policy page:
-https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
-
-Remember that many packages have already been installed on the system and can
-be loaded using 
-the 'module load <package__name>' command. If you are uncertain if a package is
-already available 
-on the system, please use 'module avail' or 'module spider' to search for it.
-============================================================================================== 
-Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:10<01:45, 10.57s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:24<01:55, 12.83s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:38<01:46, 13.32s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [00:52<01:33, 13.41s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:07<01:23, 13.85s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:21<01:09, 13.93s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:36<00:57, 14.42s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [01:53<00:45, 15.23s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:09<00:31, 15.54s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:19<00:13, 13.84s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:29<00:00, 12.69s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:29<00:00, 13.63s/it]
-
-No chat template is defined for this tokenizer - using a default chat template that implements the ChatML format (without BOS/EOS tokens!). If the default is not appropriate for your model, please set `tokenizer.chat_template` to an appropriate template. See https://huggingface.co/docs/transformers/main/chat_templating for more information.
-
-slurmstepd: error: *** JOB 6270788 ON gcn33 CANCELLED AT 2024-05-17T20:05:42 ***
-slurmstepd: error: container_p_join: setns failed for /slurm/6270788/.ns: Invalid argument
-slurmstepd: error: container_g_join(6270788): Invalid argument

@@ -1,24 +1,0 @@
-============================================================================================== 
-Warning! Mixing Conda and module environments may lead to corruption of the
-user environment. 
-We do not recommend users mixing those two environments unless absolutely
-necessary. Note that 
-SURF does not provide any support for Conda environment.
-For more information, please refer to our software policy page:
-https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
-
-Remember that many packages have already been installed on the system and can
-be loaded using 
-the 'module load <package__name>' command. If you are uncertain if a package is
-already available 
-on the system, please use 'module avail' or 'module spider' to search for it.
-============================================================================================== 
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:24<01:13, 24.63s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:48<00:48, 24.17s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:12<00:23, 23.96s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:17<00:00, 16.60s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:17<00:00, 19.38s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:15<00:46, 15.34s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:32<00:33, 16.53s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:49<00:16, 16.83s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 11.64s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 13.40s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:14<00:43, 14.38s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:30<00:30, 15.15s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:44<00:14, 14.92s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:48<00:00, 10.38s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:48<00:00, 12.03s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:15<00:46, 15.44s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:33<00:33, 16.71s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:50<00:17, 17.09s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 11.78s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 13.55s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-slurmstepd: error: *** JOB 6275926 ON gcn15 CANCELLED AT 2024-05-18T17:27:40 DUE TO TIME LIMIT ***

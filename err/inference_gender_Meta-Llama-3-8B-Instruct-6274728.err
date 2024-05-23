@@ -1,55 +1,0 @@
-============================================================================================== 
-Warning! Mixing Conda and module environments may lead to corruption of the
-user environment. 
-We do not recommend users mixing those two environments unless absolutely
-necessary. Note that 
-SURF does not provide any support for Conda environment.
-For more information, please refer to our software policy page:
-https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
-
-Remember that many packages have already been installed on the system and can
-be loaded using 
-the 'module load <package__name>' command. If you are uncertain if a package is
-already available 
-on the system, please use 'module avail' or 'module spider' to search for it.
-============================================================================================== 
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:16<00:48, 16.15s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:33<00:34, 17.13s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:51<00:17, 17.29s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:55<00:00, 11.98s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:55<00:00, 13.82s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 201, in main
-    dataset, args.template, args.recall, args.german
-AttributeError: 'Namespace' object has no attribute 'german'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:15,  5.27s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:10,  5.27s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:15<00:05,  5.15s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:16<00:00,  3.63s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:16<00:00,  4.21s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 201, in main
-    dataset, args.template, args.recall, args.german
-AttributeError: 'Namespace' object has no attribute 'german'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:15,  5.26s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:10,  5.28s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:15<00:05,  5.19s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:16<00:00,  3.66s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:16<00:00,  4.24s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 201, in main
-    dataset, args.template, args.recall, args.german
-AttributeError: 'Namespace' object has no attribute 'german'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:15,  5.27s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:10,  5.24s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:15<00:05,  5.16s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:16<00:00,  3.63s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:16<00:00,  4.21s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 201, in main
-    dataset, args.template, args.recall, args.german
-AttributeError: 'Namespace' object has no attribute 'german'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:15,  5.31s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:10,  5.26s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:15<00:05,  5.19s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:16<00:00,  3.64s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:16<00:00,  4.23s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 201, in main
-    dataset, args.template, args.recall, args.german
-AttributeError: 'Namespace' object has no attribute 'german'
