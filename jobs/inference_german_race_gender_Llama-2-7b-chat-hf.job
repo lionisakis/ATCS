@@ -7,8 +7,8 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --time=04:00:00
 #SBATCH --mem=32000M
-#SBATCH --output=./out/inference_german_race_gender_Llama-2-7b-hf-%A.out
-#SBATCH --error=./err/inference_german_race_gender_Llama-2-7b-hf-%A.err
+#SBATCH --output=./out/inference_gerMann_race_gender_Llama-2-7b-hf-%A.out
+#SBATCH --error=./err/inference_gerMann_race_gender_Llama-2-7b-hf-%A.err
 
 module purge
 module load 2022
@@ -19,29 +19,29 @@ module load Anaconda3/2022.05
 # Activate your environment
 source activate llama_3_instruct
 
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "Black man" --template 1 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "Black woman" --template 1 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "Hispanic man" --template 1 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "Hispanic woman" --template 1 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "Asian man" --template 1 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "Asian woman" --template 1 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "White man" --template 1 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "White woman" --template 1 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "schwarze Mann" --template 1 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "schwarze Frau" --template 1 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "hispanische Mann" --template 1 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "hispanische Frau" --template 1 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "asiatische Mann" --template 1 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "asiatische Frau" --template 1 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "weiße Mann" --template 1 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "weiße Frau" --template 1 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
 
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "Black man" --template 2 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "Black woman" --template 2 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "Hispanic man" --template 2 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "Hispanic woman" --template 2 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "Asian man" --template 2 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "Asian woman" --template 2 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "White man" --template 2 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "White woman" --template 2 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "schwarze Mann" --template 2 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "schwarze Frau" --template 2 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "hispanische Mann" --template 2 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "hispanische Frau" --template 2 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "asiatische Mann" --template 2 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "asiatische Frau" --template 2 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "weiße Mann" --template 2 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "weiße Frau" --template 2 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
 
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "Black man" --template 3 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "Black woman" --template 3 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "Hispanic man" --template 3 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "Hispanic woman" --template 3 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "Asian man" --template 3 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "Asian woman" --template 3 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "White man" --template 3 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "White woman" --template 3 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "schwarze Mann" --template 3 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "schwarze Frau" --template 3 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "hispanische Mann" --template 3 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "hispanische Frau" --template 3 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "asiatische Mann" --template 3 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "asiatische Frau" --template 3 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "weiße Mann" --template 3 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group "weiße Frau" --template 3 --batch_size 32 --gerMann --pred_path dataset/deISEARenISEAR/deISEAR.tsv

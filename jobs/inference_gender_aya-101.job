@@ -5,7 +5,7 @@
 #SBATCH --job-name=E_g_a
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
-#SBATCH --time=08:00:00
+#SBATCH --time=04:00:00
 #SBATCH --mem=16000M
 #SBATCH --output=./out/inference_gender_aya-101-%A.out
 #SBATCH --error=./err/inference_gender_aya-101-%A.err

@@ -19,7 +19,7 @@ module load Anaconda3/2022.05
 # Activate your environment
 source activate llama_3_instruct
 
-# python modules/main.py --model_name model_zoo/meta-llama/Meta-Llama-3-8B-Instruct --target_group Mann --template 1 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv 
+python modules/main.py --model_name model_zoo/meta-llama/Meta-Llama-3-8B-Instruct --target_group Mann --template 1 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv 
 python modules/main.py --model_name model_zoo/meta-llama/Meta-Llama-3-8B-Instruct --target_group Frau --template 1 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
 
 python modules/main.py --model_name model_zoo/meta-llama/Meta-Llama-3-8B-Instruct --target_group Frau --template 2 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv

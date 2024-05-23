@@ -19,29 +19,29 @@ module load Anaconda3/2022.05
 # Activate your environment
 source activate llama_3_instruct
 
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Black man" --template 1 --batch_size 1
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Black woman" --template 1 --batch_size 1
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Hispanic man" --template 1 --batch_size 1
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Hispanic woman" --template 1 --batch_size 1
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Asian man" --template 1 --batch_size 1
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Asian woman" --template 1 --batch_size 1
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "White man" --template 1 --batch_size 1
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "White woman" --template 1 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Black man" --template 1 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Black woman" --template 1 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Hispanic man" --template 1 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Hispanic woman" --template 1 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Asian man" --template 1 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Asian woman" --template 1 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "White man" --template 1 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "White woman" --template 1 --batch_size 1
 
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Black man" --template 2 --batch_size 1
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Black woman" --template 2 --batch_size 1
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Hispanic man" --template 2 --batch_size 1
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Hispanic woman" --template 2 --batch_size 1
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Asian man" --template 2 --batch_size 1
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Asian woman" --template 2 --batch_size 1
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "White man" --template 2 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Black man" --template 2 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Black woman" --template 2 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Hispanic man" --template 2 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Hispanic woman" --template 2 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Asian man" --template 2 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Asian woman" --template 2 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "White man" --template 2 --batch_size 1
 python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "White woman" --template 2 --batch_size 1
 
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Black man" --template 3 --batch_size 1
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Black woman" --template 3 --batch_size 1
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Hispanic man" --template 3 --batch_size 1
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Hispanic woman" --template 3 --batch_size 1
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Asian man" --template 3 --batch_size 1
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Asian woman" --template 3 --batch_size 1
-# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "White man" --template 3 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Black man" --template 3 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Black woman" --template 3 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Hispanic man" --template 3 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Hispanic woman" --template 3 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Asian man" --template 3 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "Asian woman" --template 3 --batch_size 1
+python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "White man" --template 3 --batch_size 1
 python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group "White woman" --template 3 --batch_size 1
