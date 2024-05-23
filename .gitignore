@@ -4,4 +4,6 @@ model_zoo
 model
 dataset
 .vscode/
-output 2
+
+err
+out
