@@ -1,30 +1,0 @@
-============================================================================================== 
-Warning! Mixing Conda and module environments may lead to corruption of the
-user environment. 
-We do not recommend users mixing those two environments unless absolutely
-necessary. Note that 
-SURF does not provide any support for Conda environment.
-For more information, please refer to our software policy page:
-https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
-
-Remember that many packages have already been installed on the system and can
-be loaded using 
-the 'module load <package__name>' command. If you are uncertain if a package is
-already available 
-on the system, please use 'module avail' or 'module spider' to search for it.
-============================================================================================== 
-Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:08<01:22,  8.26s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:19<01:31, 10.17s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:33<01:33, 11.63s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [00:48<01:30, 12.99s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:03<01:23, 13.85s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:17<01:09, 13.92s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:34<00:58, 14.74s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [01:48<00:43, 14.50s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:02<00:28, 14.47s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:11<00:12, 12.74s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:20<00:00, 11.70s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:20<00:00, 12.79s/it]
-
-No chat template is defined for this tokenizer - using a default chat template that implements the ChatML format (without BOS/EOS tokens!). If the default is not appropriate for your model, please set `tokenizer.chat_template` to an appropriate template. See https://huggingface.co/docs/transformers/main/chat_templating for more information.
-
-Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:12<02:07, 12.74s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:28<02:12, 14.74s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:45<02:03, 15.46s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [01:00<01:48, 15.53s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:17<01:36, 16.00s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:34<01:20, 16.19s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:50<01:05, 16.35s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [02:07<00:49, 16.43s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:23<00:32, 16.36s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:34<00:14, 14.74s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:45<00:00, 13.41s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:45<00:00, 15.02s/it]
-
-No chat template is defined for this tokenizer - using a default chat template that implements the ChatML format (without BOS/EOS tokens!). If the default is not appropriate for your model, please set `tokenizer.chat_template` to an appropriate template. See https://huggingface.co/docs/transformers/main/chat_templating for more information.
-
-Loading checkpoint shards:   0%|          | 0/11 [00:00<?, ?it/s]Loading checkpoint shards:   9%|▉         | 1/11 [00:12<02:06, 12.69s/it]Loading checkpoint shards:  18%|█▊        | 2/11 [00:28<02:08, 14.30s/it]Loading checkpoint shards:  27%|██▋       | 3/11 [00:45<02:04, 15.62s/it]Loading checkpoint shards:  36%|███▋      | 4/11 [01:01<01:51, 15.96s/it]Loading checkpoint shards:  45%|████▌     | 5/11 [01:19<01:38, 16.48s/it]Loading checkpoint shards:  55%|█████▍    | 6/11 [01:36<01:23, 16.61s/it]Loading checkpoint shards:  64%|██████▎   | 7/11 [01:52<01:06, 16.56s/it]Loading checkpoint shards:  73%|███████▎  | 8/11 [02:09<00:50, 16.81s/it]Loading checkpoint shards:  82%|████████▏ | 9/11 [02:26<00:33, 16.83s/it]Loading checkpoint shards:  91%|█████████ | 10/11 [02:37<00:15, 15.02s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:48<00:00, 13.65s/it]Loading checkpoint shards: 100%|██████████| 11/11 [02:48<00:00, 15.30s/it]
-
-No chat template is defined for this tokenizer - using a default chat template that implements the ChatML format (without BOS/EOS tokens!). If the default is not appropriate for your model, please set `tokenizer.chat_template` to an appropriate template. See https://huggingface.co/docs/transformers/main/chat_templating for more information.
-
-slurmstepd: error: *** JOB 6270868 ON gcn51 CANCELLED AT 2024-05-17T20:36:56 DUE TO TIME LIMIT ***
-slurmstepd: error: container_p_join: setns failed for /slurm/6270868/.ns: Invalid argument
-slurmstepd: error: container_g_join(6270868): Invalid argument

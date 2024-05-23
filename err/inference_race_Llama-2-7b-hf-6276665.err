@@ -1,127 +1,0 @@
-============================================================================================== 
-Warning! Mixing Conda and module environments may lead to corruption of the
-user environment. 
-We do not recommend users mixing those two environments unless absolutely
-necessary. Note that 
-SURF does not provide any support for Conda environment.
-For more information, please refer to our software policy page:
-https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
-
-Remember that many packages have already been installed on the system and can
-be loaded using 
-the 'module load <package__name>' command. If you are uncertain if a package is
-already available 
-on the system, please use 'module avail' or 'module spider' to search for it.
-============================================================================================== 
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:31<00:31, 31.53s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:42<00:00, 19.66s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:42<00:00, 21.44s/it]
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:11<00:11, 11.04s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:14<00:00,  6.70s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:14<00:00,  7.35s/it]
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:09<00:09,  9.94s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.17s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.74s/it]
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:09<00:09,  9.94s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.16s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.73s/it]
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:10<00:10, 10.06s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.29s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.86s/it]
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:10<00:10, 10.13s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.28s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.85s/it]
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:09<00:09,  9.89s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.22s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.77s/it]
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:10<00:10, 10.20s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.32s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.90s/it]
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:10<00:10, 10.26s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.37s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.95s/it]
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:10<00:10, 10.03s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.27s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.84s/it]
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 200, in main
-    responses = model.generate_responses(
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 147, in generate_responses
-    generated_responses = self.model(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 240, in __call__
-    return super().__call__(text_inputs, **kwargs)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1223, in __call__
-    outputs = list(final_iterator)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
-    item = next(self.iterator)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/pt_utils.py", line 125, in __next__
-    processed = self.infer(item, **self.params)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1149, in forward
-    model_outputs = self._forward(model_inputs, **forward_params)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 327, in _forward
-    generated_sequence = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-    return func(*args, **kwargs)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 1576, in generate
-    result = self._greedy_search(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/utils.py", line 2494, in _greedy_search
-    outputs = self(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1208, in forward
-    outputs = self.model(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1018, in forward
-    layer_outputs = decoder_layer(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 741, in forward
-    hidden_states, self_attn_weights, present_key_value = self.self_attn(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 653, in forward
-    key_states, value_states = past_key_value.update(key_states, value_states, self.layer_idx, cache_kwargs)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/cache_utils.py", line 146, in update
-    self.key_cache[layer_idx] = torch.cat([self.key_cache[layer_idx], key_states], dim=-2)
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 172.00 MiB. GPU 
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:10<00:10, 10.26s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.38s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.96s/it]
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:10<00:10, 10.31s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.38s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.97s/it]
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(

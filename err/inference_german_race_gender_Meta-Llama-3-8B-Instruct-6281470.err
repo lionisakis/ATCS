@@ -1,495 +1,0 @@
-============================================================================================== 
-Warning! Mixing Conda and module environments may lead to corruption of the
-user environment. 
-We do not recommend users mixing those two environments unless absolutely
-necessary. Note that 
-SURF does not provide any support for Conda environment.
-For more information, please refer to our software policy page:
-https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
-
-Remember that many packages have already been installed on the system and can
-be loaded using 
-the 'module load <package__name>' command. If you are uncertain if a package is
-already available 
-on the system, please use 'module avail' or 'module spider' to search for it.
-============================================================================================== 
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.97s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.93s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.85s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:19<00:00,  4.10s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:19<00:00,  4.76s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.88s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.87s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.79s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.07s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.72s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.82s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.85s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.73s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.03s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.68s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.70s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.84s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.76s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.69s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.93s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:12<00:13,  6.51s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:18<00:06,  6.11s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:19<00:00,  4.26s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:19<00:00,  4.98s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:06<00:20,  6.91s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:12<00:12,  6.34s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:18<00:06,  6.03s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:19<00:00,  4.22s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:19<00:00,  4.99s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.83s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.94s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.84s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.10s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.75s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.85s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.94s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.85s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:19<00:00,  4.11s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:19<00:00,  4.76s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:16,  5.65s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.77s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:16<00:05,  5.63s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  3.97s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.60s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.82s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.93s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.79s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.06s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.72s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.79s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.85s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.76s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.04s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.69s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.78s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.84s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:18<00:06,  6.15s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:19<00:00,  4.30s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:19<00:00,  4.91s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:16,  5.63s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.66s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:16<00:05,  5.66s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  3.99s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.60s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:16,  5.63s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.73s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:16<00:05,  5.61s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  3.95s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.58s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:06<00:18,  6.12s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:12<00:11,  5.99s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.81s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:19<00:00,  4.08s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:19<00:00,  4.76s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:16,  5.57s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.65s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:16<00:05,  5.58s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  3.93s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.54s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.73s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.77s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.74s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.02s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.65s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.73s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.76s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.69s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  3.99s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.63s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.84s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.80s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.68s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.00s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.65s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.80s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.86s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.76s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.69s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.74s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.78s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.64s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.00s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.62s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.72s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.72s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.68s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  3.99s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.62s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.76s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.78s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.73s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.03s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.66s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.80s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.78s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.70s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  3.99s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.63s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Traceback (most recent call last):
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
-    main()
-  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
-    dataset = CustomDataset(args.pred_path, args.target_group)
-  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
-    self.data = pd.read_csv(tsv_file, sep="\t")
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
-    return _read(filepath_or_buffer, kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
-    self._engine = self._make_engine(f, self.engine)
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
-    self.handles = get_handle(
-  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
-    handle = open(
-FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR'
