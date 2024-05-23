@@ -1,0 +1,805 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:15<00:47, 15.75s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:33<00:33, 16.84s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:49<00:16, 16.74s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 11.63s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 13.45s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Traceback (most recent call last):
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 240, in <module>
+    main()
+  File "/gpfs/home3/scur0255/ATCS/modules/main.py", line 199, in main
+    dataset = CustomDataset(args.pred_path, args.target_group)
+  File "/gpfs/home3/scur0255/ATCS/modules/dataset.py", line 42, in __init__
+    self.data = pd.read_csv(tsv_file, sep="\t")
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset/deISEARenISEAR/deISEAR.tsv.tsv'
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:16,  5.57s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.52s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:16<00:05,  5.45s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  3.84s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  4.45s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:16,  5.51s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:10,  5.48s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:16<00:05,  5.42s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  3.84s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  4.44s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:16,  5.52s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:10,  5.49s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:16<00:05,  5.44s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  3.83s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  4.43s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:16,  5.46s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:10,  5.50s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:16<00:05,  5.43s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  3.83s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  4.43s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:16,  5.64s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.55s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:16<00:05,  5.47s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  3.85s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  4.47s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:16,  5.46s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:10,  5.49s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:16<00:05,  5.45s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  3.84s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  4.43s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:16,  5.48s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.50s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:16<00:05,  5.42s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  3.82s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  4.42s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:16,  5.49s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:10,  5.47s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:16<00:05,  5.41s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  3.81s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  4.41s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:16,  5.45s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:10,  5.49s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:16<00:05,  5.43s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  3.82s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  4.42s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:16,  5.48s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.51s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:16<00:05,  5.45s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  3.83s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  4.44s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:16,  5.50s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.53s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:16<00:05,  5.42s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  3.81s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:17<00:00,  4.42s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/scur0255/.conda/envs/llama_3_instruct/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.

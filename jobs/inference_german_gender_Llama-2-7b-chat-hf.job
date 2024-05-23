@@ -19,11 +19,11 @@ module load Anaconda3/2022.05
 # Activate your environment
 source activate llama_3_instruct
 
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group female --template 1 --batch_size 32  --german --pred_path dataset/deISEARenISEAR/deISEAR
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group male --template 1 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group female --template 1 --batch_size 32  --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group male --template 1 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
 
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group female --template 2 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group male --template 2 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group female --template 2 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group male --template 2 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
 
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group female --template 3 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR
-python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group male --template 3 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group female --template 3 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+python modules/main.py --model_name model_zoo/meta-llama/Llama-2-7b-chat-hf --target_group male --template 3 --batch_size 32 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv

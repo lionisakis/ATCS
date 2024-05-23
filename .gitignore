@@ -1,5 +1,7 @@
 *.zip
 **__pycache__**
-model_zoo/
-dataset/
+model_zoo
+model
+dataset
 .vscode/
+output 2
