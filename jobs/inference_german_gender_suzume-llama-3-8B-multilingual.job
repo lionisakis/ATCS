@@ -19,10 +19,10 @@ module load Anaconda3/2022.05
 # Activate your environment
 source activate llama_3_instruct
 
-python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group Frau --template 1 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
-python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group Mann --template 1 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group Frau --template 1 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group Mann --template 1 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
 
-python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group Frau --template 2 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
+# python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group Frau --template 2 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
 python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group Mann --template 2 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
 
 python modules/main.py --model_name model_zoo/meta-llama/suzume-llama-3-8B-multilingual --target_group Frau --template 3 --batch_size 1 --german --pred_path dataset/deISEARenISEAR/deISEAR.tsv
