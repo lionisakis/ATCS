@@ -1,12 +1,13 @@
-# Examining Racial and Gender Biases in Large Language Models Through the Lens of Emotional Analysi
-Advance topics in Computational Semantics
+# Examining Racial and Gender Biases in Large Language Models Through the Lens of Emotional Analysis
+Inspired by [Large Language Models Reflect Gendered Stereotypes in Emotion Attribution](https://arxiv.org/pdf/2403.03121)
 
-Authors: 
+Authors/Contributors: 
 - Emmanouil Georgios Lionis 
 - Antonios Tragoudaras 
 - Despoina Touska 
 - Ian van Dort 
-- Kornel Weryszko 
+- Kornel Weryszko
+
 ## Stucture of Repository
 The structure of the repo is the following:
 ```
